@@ -1,7 +1,8 @@
 .carousel {
     position: relative;
-    height: 70vh;
+    height: 100vh;
     overflow: hidden;
+
 }
 
 .img-box {
@@ -65,9 +66,9 @@
 
 .info-box {
     position: absolute;
-    right: 10%;
-    bottom: 35%;
-    width: 400px;
+    right: 5%;
+    bottom: 10%;
+    width: 350px;
     height: 150px;
     display: flex;
     flex-direction: column;
@@ -140,10 +141,10 @@
 
     .info-box {
         width: 300px;
-    }
-
-    .info-item h2 {
-        font-size: 50px;
+        right: 5%;
+        bottom: 10%;
+        height: 150px;
+        display: flex;
     }
 
     .navigation span {
@@ -152,10 +153,19 @@
         font-size: 45px;
     }
 
-    .large-text h2 {
-        font-size: 100px;
-        letter-spacing: -70px;
+    .img-slider .img-item {
+        position: absolute;
+        max-width: 350px;
     }
+
+    .img-box {
+        bottom: -1200px;
+        left: 40%;
+    }
+
+    
+
+    
 }
 
 @media (max-width: 768px) {
@@ -168,9 +178,6 @@
         width: 250px;
     }
 
-    .info-item h2 {
-        font-size: 40px;
-    }
 
     .navigation span {
         width: 50px;
@@ -178,20 +185,12 @@
         font-size: 35px;
     }
 
-    .large-text h2 {
-        position: absolute;
-        left: 10%;
-        font-size: 130px;
-        writing-mode:  horizontal-tb;
-        color: rgba(255, 255, 255, .4);
-        text-orientation: upright;
-        letter-spacing: 50px;
-    }
+    
 }
 
 @media (max-width: 480px) {
     .carousel {
-        height: 70vh;
+        height: 100vh;
     }
 
     .img-box {
@@ -200,14 +199,11 @@
     }
 
     .info-box {
-        right: 15%;
+        right: 10%;
         bottom: 0%;
         width: 300px;
     }
 
-    .info-item h2 {
-        font-size: 30px;
-    }
 
     .navigation span {
         width: 40px;
@@ -215,15 +211,17 @@
         font-size: 25px;
     }
 
-    .large-text h2 {
+    .img-slider .img-item {
         position: absolute;
-        top: 10%;
-        color: rgba(255, 255, 255, .4);
-        font-size: 60px;
-        letter-spacing: -30px;
-        writing-mode:  horizontal-tb;
-        letter-spacing: 50px;
+        max-width: 300px;
     }
+
+    .img-box {
+        bottom: -1150px;
+        left: 50%;
+    }
+
+    
 }
 
 

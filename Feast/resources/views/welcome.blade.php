@@ -15,8 +15,12 @@
     </style>
 </head>
 
-<body class="bg-[#FED801] mx-2 sm:mx-10 lg:mx-20  ">
-<header>
+<body class="bg-[#FED801]  ">
+
+
+<main >
+    <div class="carousel">
+    <header>
     <nav class="flex justify-between items-center p-4 ">
         <img class="w-32" src="/images/logo.png" alt="Feast Downtown">
         
@@ -48,9 +52,6 @@
         </nav-list>
     </nav>
 </header>
-
-<main >
-    <div class="carousel ">
     <div class="img-box">
         <div class="img-list">
         <div class="img-slider">
@@ -104,10 +105,6 @@
         </div>
     </div>
 
-    <div class="large-text">
-        <h2>Feast</h2>
-
-    </div>
 
     <div class="navigation">
         <span class="prev-btn"><i class='bx bx-chevron-left'></i></span>
