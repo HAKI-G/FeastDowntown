@@ -18,7 +18,9 @@
 <body class="bg-[#FED801]  ">
 
 
-<main >
+<main class="h-screen overflow-y-scroll scroll-smooth snap-y snap-mandatory" >
+<!-- section 1 -->
+<section class="h-screen snap-start ">
     <div class="carousel">
     <header>
     <nav class="flex justify-between items-center p-4 ">
@@ -111,7 +113,11 @@
         <span class="next-btn"><i class='bx bx-chevron-right' ></i></span>
     </div>
     </div>
-    <div class="show-food mt-6">
+</section>
+
+<!-- section 3 -->
+<section class="h-screen  snap-start flex">
+<div class="show-food mt-6 lg:mx-40 h-screen">
                     <div class="product-list grid grid-cols-2 sm:grid sm:grid-cols-3 lg:grid lg:grid-cols-4 grid-flow-row ">
                         <div class="bg-[#FFC82A] flex items-center justify-center m-2">
                             <img class="w-full h-full object-contain" src="/images/burger.png" alt="burger">
@@ -139,111 +145,225 @@
                         </div>
                     </div>
                 </div>
+</section>
 
                 
 
-                <div class="special-offer mt-6 flex lg:h-[50vh]">
-                    <div class="produc-special-offer lg:flex  m-auto">
-                        <div class="product-special-offer-text text-center lg:m-auto basis-1/2">
-                            <h1 class="text-4xl">special offer <br/><span class="text-[#C7253E] ">50% off</span></h1>
-                            <p class="mt-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, quisquam!</p> 
-                            <button class="bg-[#C7253E] w-24 rounded-lg mt-6">order now</button>
-                        </div>
-                        <div class="product-special-offer-image grid justify-center items-center basis-1/2">
-                            <img src="/images/burger.png" alt="burger">
-                        </div>
-                    </div>
-                </div>
+<section class="bg-[#FED801] snap-start px-4 py-8 antialiased md:py-16 h-screen">
+    <div class="mx-auto grid max-w-screen-xl rounded-lg bg-[#FED801] p-4 md:p-8 lg:grid-cols-12 lg:gap-8 lg:p-16 xl:gap-16">
+    
+    <div class="lg:col-span-5 lg:mt-0">
+        <a href="#">
+            <img class="mb-4 h-56 w-56 dark:hidden sm:h-96 sm:w-96 md:h-full md:w-full" src="/images/burger.png" alt="burger" />
+            <img class="mb-4 hidden dark:block md:h-full" src="/images/burger.png" alt="burger" />
+        </a>
+    </div>
+    
+    <div class="me-auto place-self-center lg:col-span-7">
+        <h1 class="mb-3 text-2xl font-bold leading-tight tracking-tight text-[#C7253E] md:text-4xl">
+        Lorem ipsum dolor sit, amet consectetur<br />
+        lorem5.</h1>
+        <p class="mb-6">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto in nulla nostrum suscipit magnam illo expedita alias, totam optio inventore. </p>
+        <a href="#" class="inline-flex items-center justify-center rounded-lg bg-primary-700 px-5 py-3 text-center text-base font-medium text-white hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900 bg-red-700">
+        Pre-order now </a>
+    </div>
+    
+</div>
+</section>
 
-            <div class="why-choose-us lg:gap-10  ">
-                <h2 class="text-center text-4xl lg:mb-16">why choose us</h2>
-                <div class="why-us grid grid-cols-2 grid-rows-2 mt-6 sm:flex gap-x-8 sm:gap-x-12 lg:gap-x-16 ">
-                    <div class="bag w-16 grid m-auto ">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M160 112c0-35.3 28.7-64 64-64s64 28.7 64 64l0 48-128 0 0-48zm-48 48l-64 0c-26.5 0-48 21.5-48 48L0 416c0 53 43 96 96 96l256 0c53 0 96-43 96-96l0-208c0-26.5-21.5-48-48-48l-64 0 0-48C336 50.1 285.9 0 224 0S112 50.1 112 112l0 48zm24 48a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm152 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"/></svg>
-                        <p class="text-center text-sm sm:text-base lg:text-lg">10 years of experience</p>
-                    </div>
 
-                    <div class="person w-16 m-auto">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304l-91.4 0z"/></svg>
-                        <p class="text-center text-sm sm:text-base lg:text-lg">200+ professional chefs</p>
-                    </div>
+<section class="bg-[#FED801]  snap-start overflow-hidden h-screen">
+    <h2 class="text-center text-6xl">why us?</h2>
+    <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6 group">
+        
+        <!-- Text Section with Slide Left Animation -->
+        <div class="font-light sm:text-lg transform -translate-x-full opacity-0 transition-transform duration-1000 ease-in-out group-hover:translate-x-0 group-hover:opacity-100">
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-[#C7253E]">Lorem ipsum dolor sit amet.</h2>
+            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus aliquam amet qui recusandae omnis ducimus? Quasi voluptatem deserunt maiores doloremque recusandae ratione perferendis ad voluptate commodi, voluptatibus possimus, fugit quod.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit, recusandae.</p>
+        </div>
+        
+        <!-- Image Section with Slide Right Animation -->
+        <div class="grid grid-cols-2 gap-4 mt-8 transform translate-x-full opacity-0 transition-transform duration-1000 ease-in-out group-hover:translate-x-0 group-hover:opacity-100">
+            <img class="w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png" alt="office content 1">
+            <img class="mt-4 w-full lg:mt-10 rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png" alt="office content 2">
+        </div>
+        
+    </div>
+</section>
 
-                    <div class="people w-16 m-auto">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M144 0a80 80 0 1 1 0 160A80 80 0 1 1 144 0zM512 0a80 80 0 1 1 0 160A80 80 0 1 1 512 0zM0 298.7C0 239.8 47.8 192 106.7 192l42.7 0c15.9 0 31 3.5 44.6 9.7c-1.3 7.2-1.9 14.7-1.9 22.3c0 38.2 16.8 72.5 43.3 96c-.2 0-.4 0-.7 0L21.3 320C9.6 320 0 310.4 0 298.7zM405.3 320c-.2 0-.4 0-.7 0c26.6-23.5 43.3-57.8 43.3-96c0-7.6-.7-15-1.9-22.3c13.6-6.3 28.7-9.7 44.6-9.7l42.7 0C592.2 192 640 239.8 640 298.7c0 11.8-9.6 21.3-21.3 21.3l-213.3 0zM224 224a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zM128 485.3C128 411.7 187.7 352 261.3 352l117.3 0C452.3 352 512 411.7 512 485.3c0 14.7-11.9 26.7-26.7 26.7l-330.7 0c-14.7 0-26.7-11.9-26.7-26.7z"/></svg>
-                        <p class="text-center text-sm sm:text-base lg:text-lg">5000+ happy customers</p>
-                    </div>
 
-                    <div class="awards w-16 m-auto">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M400 0L176 0c-26.5 0-48.1 21.8-47.1 48.2c.2 5.3 .4 10.6 .7 15.8L24 64C10.7 64 0 74.7 0 88c0 92.6 33.5 157 78.5 200.7c44.3 43.1 98.3 64.8 138.1 75.8c23.4 6.5 39.4 26 39.4 45.6c0 20.9-17 37.9-37.9 37.9L192 448c-17.7 0-32 14.3-32 32s14.3 32 32 32l192 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-26.1 0C337 448 320 431 320 410.1c0-19.6 15.9-39.2 39.4-45.6c39.9-11 93.9-32.7 138.2-75.8C542.5 245 576 180.6 576 88c0-13.3-10.7-24-24-24L446.4 64c.3-5.2 .5-10.4 .7-15.8C448.1 21.8 426.5 0 400 0zM48.9 112l84.4 0c9.1 90.1 29.2 150.3 51.9 190.6c-24.9-11-50.8-26.5-73.2-48.3c-32-31.1-58-76-63-142.3zM464.1 254.3c-22.4 21.8-48.3 37.3-73.2 48.3c22.7-40.3 42.8-100.5 51.9-190.6l84.4 0c-5.1 66.3-31.1 111.2-63 142.3z"/></svg>
-                        <p class="text-center text-sm sm:text-base lg:text-lg">20+ awards won</p>
-                    </div>
-                </div>
-            </div>
+<section class="bg-[#FED801]  snap-start overflow-hidden h-screen ">
+<h2 class="text-center text-6xl">why us?</h2>
+    <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6 group">
+        
+        <!-- Image Section with Slide Right Animation -->
+        <div class="grid grid-cols-2 gap-4 mt-8 transform -translate-x-full opacity-0 transition-transform duration-1000 ease-in-out group-hover:translate-x-0 group-hover:opacity-100">
+            <img class="w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png" alt="office content 1">
+            <img class="mt-4 w-full lg:mt-10 rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png" alt="office content 2">
         </div>
 
-    
+        <!-- Text Section with Slide Left Animation -->
+        <div class="font-light sm:text-lg transform translate-x-full opacity-0 transition-transform duration-1000 ease-in-out group-hover:translate-x-0 group-hover:opacity-100">
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-[#C7253E]">Lorem ipsum dolor sit amet.</h2>
+            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus aliquam amet qui recusandae omnis ducimus? Quasi voluptatem deserunt maiores doloremque recusandae ratione perferendis ad voluptate commodi, voluptatibus possimus, fugit quod.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit, recusandae.</p>
+        </div>
+        
+    </div>
+</section>
 
+<section class="bg-[#FED801]  snap-start overflow-hidden h-screen ">
+<h2 class="text-center text-6xl">why us?</h2>
+    <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6 group">
+        
+        <!-- Text Section with Slide Left Animation -->
+        <div class="font-light sm:text-lg transform -translate-x-full opacity-0 transition-transform duration-1000 ease-in-out group-hover:translate-x-0 group-hover:opacity-100">
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-[#C7253E]">Lorem ipsum dolor sit amet.</h2>
+            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus aliquam amet qui recusandae omnis ducimus? Quasi voluptatem deserunt maiores doloremque recusandae ratione perferendis ad voluptate commodi, voluptatibus possimus, fugit quod.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit, recusandae.</p>
+        </div>
+        
+        <!-- Image Section with Slide Right Animation -->
+        <div class="grid grid-cols-2 gap-4 mt-8 transform translate-x-full opacity-0 transition-transform duration-1000 ease-in-out group-hover:translate-x-0 group-hover:opacity-100">
+            <img class="w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png" alt="office content 1">
+            <img class="mt-4 w-full lg:mt-10 rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png" alt="office content 2">
+        </div>
+        
+    </div>
+</section>
+
+<section class="bg-[#FED801]  snap-start overflow-hidden h-screen">
+<h2 class="text-center text-6xl">why us?</h2>
+    <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6 group">
+        
+        <!-- Image Section with Slide Right Animation -->
+        <div class="grid grid-cols-2 gap-4 mt-8 transform -translate-x-full opacity-0 transition-transform duration-1000 ease-in-out group-hover:translate-x-0 group-hover:opacity-100">
+            <img class="w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png" alt="office content 1">
+            <img class="mt-4 w-full lg:mt-10 rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png" alt="office content 2">
+        </div>
+
+        <!-- Text Section with Slide Left Animation -->
+        <div class="font-light sm:text-lg transform translate-x-full opacity-0 transition-transform duration-1000 ease-in-out group-hover:translate-x-0 group-hover:opacity-100">
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-[#C7253E]">Lorem ipsum dolor sit amet.</h2>
+            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus aliquam amet qui recusandae omnis ducimus? Quasi voluptatem deserunt maiores doloremque recusandae ratione perferendis ad voluptate commodi, voluptatibus possimus, fugit quod.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit, recusandae.</p>
+        </div>
+        
+    </div>
+</section>
 </main>
 
-<footer>
-    <div class="grid grid-cols-2 grid-rows-2 gap-10 mt-10 text-center lg:flex lg:mt-20">
-        <div class="popular-page-list flex-1">
-            <div>
-                <h2 class="text-[#C7253E]">reach us</h2>
-                <h3>home</h3>
-                <h3>about us</h3>
-                <h3>our chefs</h3>
-                <h3>our blogs</h3>
-                <h3>faqs</h3>
-                <h3>contact us</h3>
-            </div>
-        </div>
 
-        <div class="flex-1">
-            <div class="popular-category-list">
-                <h2 class="text-[#C7253E]">popular category</h2>
-                <h3>burger</h3> 
-                <h3>spicy chicken</h3>
-                <h3>lasagna</h3>
-                <h3>halo-halo</h3>
-                <h3>ham & cheeze pizza</h3>
-            </div>
+<footer class="bg-white dark:bg-gray-900">
+    <div class="mx-auto w-full max-w-screen-xl">
+        <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
+        <div>
+            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Company</h2>
+            <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                <li class="mb-4">
+                    <a href="#" class=" hover:underline">About</a>
+                </li>
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">Careers</a>
+                </li>
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">Brand Center</a>
+                </li>
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">Blog</a>
+                </li>
+            </ul>
         </div>
-
-        <div class="flex-1">
-            <div class="reach-us">
-                <h2 class="text-[#C7253E]">reach us</h2>
-                <div class="mobile-number">
-                    <h3>09090909</h3>
-                </div>
-                <div class="email">
-                    <h3>info@gmail.com</h3>
-                </div>
-                <div class="website">
-                    <h3>www.feastDowntown.com</h3>
-                </div>
-            </div>
+        <div>
+            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Help center</h2>
+            <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">Discord Server</a>
+                </li>
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">Twitter</a>
+                </li>
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">Facebook</a>
+                </li>
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">Contact Us</a>
+                </li>
+            </ul>
         </div>
-
-        <div class="flex-1">
-            <div class="social-page">
-                <h2 class="text-[#C7253E]">social page</h2>
-                <div class="facebook">
-                    <!-- Add your social media icons here -->
-                </div>
-                <div class="twitter">
-                    <!-- Add your social media icons here -->
-                </div>
-                <div class="instagram">
-                    <!-- Add your social media icons here -->
-                </div>
-                <div class="twitch">
-                    <!-- Add your social media icons here -->
-                </div>
-            </div>
+        <div>
+            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
+            <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">Privacy Policy</a>
+                </li>
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">Licensing</a>
+                </li>
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Download</h2>
+            <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">iOS</a>
+                </li>
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">Android</a>
+                </li>
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">Windows</a>
+                </li>
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">MacOS</a>
+                </li>
+            </ul>
         </div>
     </div>
+    <div class="px-4 py-6 bg-gray-100 dark:bg-gray-700 md:flex md:items-center md:justify-between">
+        <span class="text-sm text-gray-500 dark:text-gray-300 sm:text-center">© 2024 <a href="https://flowbite.com/">FeastDowntown™</a>. All Rights Reserved.
+        </span>
+        <div class="flex mt-4 sm:justify-center md:mt-0 space-x-5 rtl:space-x-reverse">
+            <a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+                    <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
+                        <path fill-rule="evenodd" d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z" clip-rule="evenodd"/>
+                    </svg>
+                    <span class="sr-only">Facebook page</span>
+            </a>
+            <a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+                <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 21 16">
+                        <path d="M16.942 1.556a16.3 16.3 0 0 0-4.126-1.3 12.04 12.04 0 0 0-.529 1.1 15.175 15.175 0 0 0-4.573 0 11.585 11.585 0 0 0-.535-1.1 16.274 16.274 0 0 0-4.129 1.3A17.392 17.392 0 0 0 .182 13.218a15.785 15.785 0 0 0 4.963 2.521c.41-.564.773-1.16 1.084-1.785a10.63 10.63 0 0 1-1.706-.83c.143-.106.283-.217.418-.33a11.664 11.664 0 0 0 10.118 0c.137.113.277.224.418.33-.544.328-1.116.606-1.71.832a12.52 12.52 0 0 0 1.084 1.785 16.46 16.46 0 0 0 5.064-2.595 17.286 17.286 0 0 0-2.973-11.59ZM6.678 10.813a1.941 1.941 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.919 1.919 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Zm6.644 0a1.94 1.94 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.918 1.918 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Z"/>
+                    </svg>
+                <span class="sr-only">Discord community</span>
+            </a>
+            <a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+                <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 17">
+                    <path fill-rule="evenodd" d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z" clip-rule="evenodd"/>
+                </svg>
+                <span class="sr-only">Twitter page</span>
+            </a>
+            <a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+                <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z" clip-rule="evenodd"/>
+                </svg>
+                <span class="sr-only">GitHub account</span>
+            </a>
+            <a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+                <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M10 0a10 10 0 1 0 10 10A10.009 10.009 0 0 0 10 0Zm6.613 4.614a8.523 8.523 0 0 1 1.93 5.32 20.094 20.094 0 0 0-5.949-.274c-.059-.149-.122-.292-.184-.441a23.879 23.879 0 0 0-.566-1.239 11.41 11.41 0 0 0 4.769-3.366ZM8 1.707a8.821 8.821 0 0 1 2-.238 8.5 8.5 0 0 1 5.664 2.152 9.608 9.608 0 0 1-4.476 3.087A45.758 45.758 0 0 0 8 1.707ZM1.642 8.262a8.57 8.57 0 0 1 4.73-5.981A53.998 53.998 0 0 1 9.54 7.222a32.078 32.078 0 0 1-7.9 1.04h.002Zm2.01 7.46a8.51 8.51 0 0 1-2.2-5.707v-.262a31.64 31.64 0 0 0 8.777-1.219c.243.477.477.964.692 1.449-.114.032-.227.067-.336.1a13.569 13.569 0 0 0-6.942 5.636l.009.003ZM10 18.556a8.508 8.508 0 0 1-5.243-1.8 11.717 11.717 0 0 1 6.7-5.332.509.509 0 0 1 .055-.02 35.65 35.65 0 0 1 1.819 6.476 8.476 8.476 0 0 1-3.331.676Zm4.772-1.462A37.232 37.232 0 0 0 13.113 11a12.513 12.513 0 0 1 5.321.364 8.56 8.56 0 0 1-3.66 5.73h-.002Z" clip-rule="evenodd"/>
+                </svg>
+                <span class="sr-only">Feast account</span>
+            </a>
+        </div>
+    </div>
+    </div>
 </footer>
+
 
 
 

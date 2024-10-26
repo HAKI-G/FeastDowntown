@@ -7,11 +7,12 @@
 
 .img-box {
     position: absolute;
-    bottom: -1100px;
+    bottom: -1000px;
     left: 50%;
     transform: translateX(-50%);
     width: 1600px;
     height: 1600px;
+   
 }
 
 .img-box .img-list {
