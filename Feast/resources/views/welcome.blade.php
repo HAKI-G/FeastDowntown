@@ -49,36 +49,36 @@
     </nav>
 </header>
 
-<main>
-    <div class="carousel">
+<main >
+    <div class="carousel ">
     <div class="img-box">
         <div class="img-list">
         <div class="img-slider">
             <div class="img-item putahi active" style="--i:0;">
-                <img src="/images/burgerbg.png" alt="burgerbg.png">
+                <img src="/images/potatobg.png" alt="burgerbg.png">
             </div>
-            <div class="img-item putahi" style="--i:1;">
-                <img class="w-[500px]" src="/images/burgerbg.png" alt="pizza 2.png">
+            <div class="img-item putahi " style="--i:1;">
+                <img  src="/images/tomatobg.png" alt="pizza">
             </div>
             <div class="img-item putahi" style="--i:2;">
-                <img  class="w-[500px]" src="/images/burgerbg.png" alt="friedchicken.png">
+                <img  src="/images/onionsbg.png" alt="friedchicken.png">
             </div>
             <div class="img-item putahi" style="--i:3;">
-                <img  class="w-[500px]"  src="/images/burgerbg.png" alt="lasagna.png">
+                <img   src="/images/greenbg.png" alt="lasagna.png">
             </div> 
 
             <div class="img-item" style="--i:0;">
                 <img src="/images/burger.png" alt="burger.png">
             </div>
-            <div class="img-item " style="--i:1;">
-                <img class="w-[500px]" src="/images/pizza 2.png" alt="pizza 2.png">
+            <div class="img-item" style="--i:1;">
+                <img src="/images/burger.png" alt="burger.png">
             </div>
             <div class="img-item" style="--i:2;">
-                <img  class="w-[500px]" src="/images/friedchicken.png" alt="friedchicken.png">
+                <img src="/images/burger.png" alt="burger.png">
             </div>
             <div class="img-item" style="--i:3;">
-                <img  class="w-[500px]"  src="/images/lasagna.png" alt="lasagna.png">
-            </div> 
+                <img src="/images/burger.png" alt="burger.png">
+            </div>
         </div>
         </div>
     </div>
@@ -90,15 +90,15 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores sed atque facere molestias modi voluptates nemo aliquid deleniti numquam quos.</p>
             </div>
             <div class="info-item">
-                <h2 class="text-[#C7253E]">pizza</h2>
+                <h2 class="text-[#C7253E]">burger</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores sed atque facere molestias modi voluptates nemo aliquid deleniti numquam quos.</p>
             </div>
             <div class="info-item">
-                <h2 class="text-[#C7253E]">friedchicken</h2>
+                <h2 class="text-[#C7253E]">burger</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores sed atque facere molestias modi voluptates nemo aliquid deleniti numquam quos.</p>
             </div>
             <div class="info-item">
-                <h2 class="text-[#C7253E]">lasagna</h2>
+                <h2 class="text-[#C7253E]">burger</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores sed atque facere molestias modi voluptates nemo aliquid deleniti numquam quos.</p>
             </div>
         </div>
@@ -145,7 +145,7 @@
 
                 
 
-                <div class="special-offer mt-6 flex h-[50vh]">
+                <div class="special-offer mt-6 flex lg:h-[50vh]">
                     <div class="produc-special-offer lg:flex  m-auto">
                         <div class="product-special-offer-text text-center lg:m-auto basis-1/2">
                             <h1 class="text-4xl">special offer <br/><span class="text-[#C7253E] ">50% off</span></h1>
@@ -158,7 +158,7 @@
                     </div>
                 </div>
 
-            <div class="why-choose-us lg:gap-10 ">
+            <div class="why-choose-us lg:gap-10  ">
                 <h2 class="text-center text-4xl lg:mb-16">why choose us</h2>
                 <div class="why-us grid grid-cols-2 grid-rows-2 mt-6 sm:flex gap-x-8 sm:gap-x-12 lg:gap-x-16 ">
                     <div class="bag w-16 grid m-auto ">

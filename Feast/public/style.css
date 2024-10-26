@@ -42,6 +42,7 @@
     scale: 0; 
     transition: .5s cubic-bezier(0.645, 0.045, 0.355, 1);
     animation: float-putahi 4s ease-in-out infinite;
+    width: 800px;
 }
 
 .img-item.putahi.active img { 
@@ -133,4 +134,96 @@
     letter-spacing: -90px;
     user-select: none;
 }
+
+/* Responsive Adjustments */
+@media (max-width: 1200px) {
+
+    .info-box {
+        width: 300px;
+    }
+
+    .info-item h2 {
+        font-size: 50px;
+    }
+
+    .navigation span {
+        width: 60px;
+        height: 60px;
+        font-size: 45px;
+    }
+
+    .large-text h2 {
+        font-size: 100px;
+        letter-spacing: -70px;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel {
+        height: 70vh;
+    }
+    .info-box {
+        right: 5%;
+        bottom: 25%;
+        width: 250px;
+    }
+
+    .info-item h2 {
+        font-size: 40px;
+    }
+
+    .navigation span {
+        width: 50px;
+        height: 50px;
+        font-size: 35px;
+    }
+
+    .large-text h2 {
+        position: absolute;
+        left: 10%;
+        font-size: 130px;
+        writing-mode:  horizontal-tb;
+        color: rgba(255, 255, 255, .4);
+        text-orientation: upright;
+        letter-spacing: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    .carousel {
+        height: 70vh;
+    }
+
+    .img-box {
+        position: absolute;
+        bottom: -1050px;
+    }
+
+    .info-box {
+        right: 15%;
+        bottom: 0%;
+        width: 300px;
+    }
+
+    .info-item h2 {
+        font-size: 30px;
+    }
+
+    .navigation span {
+        width: 40px;
+        height: 40px;
+        font-size: 25px;
+    }
+
+    .large-text h2 {
+        position: absolute;
+        top: 10%;
+        color: rgba(255, 255, 255, .4);
+        font-size: 60px;
+        letter-spacing: -30px;
+        writing-mode:  horizontal-tb;
+        letter-spacing: 50px;
+    }
+}
+
 
