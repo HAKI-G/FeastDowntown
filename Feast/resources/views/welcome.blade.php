@@ -16,14 +16,15 @@
 </head>
 
 <body class="bg-[#FED801]  ">
-
+<header>
+    
+</header>
 
 <main class="h-screen overflow-y-scroll scroll-smooth snap-y snap-mandatory" >
 <!-- section 1 -->
 <section class="h-screen snap-start ">
     <div class="carousel">
-    <header>
-    <nav class="flex justify-between items-center p-4 ">
+    <nav class="flex justify-between items-center p-4 mx-20   ">
         <img class="w-32" src="/images/logo.png" alt="Feast Downtown">
         
         <nav-list class="flex items-center relative"> 
@@ -53,7 +54,6 @@
             </div>
         </nav-list>
     </nav>
-</header>
     <div class="img-box">
         <div class="img-list">
         <div class="img-slider">
@@ -117,7 +117,7 @@
 
 <!-- section 3 -->
 <section class="h-screen  snap-start flex">
-<div class="show-food mt-6 lg:mx-40 h-screen">
+<div class="show-food lg:mx-40 lg:mt-[5%] ">
                     <div class="product-list grid grid-cols-2 sm:grid sm:grid-cols-3 lg:grid lg:grid-cols-4 grid-flow-row ">
                         <div class="bg-[#FFC82A] flex items-center justify-center m-2">
                             <img class="w-full h-full object-contain" src="/images/burger.png" alt="burger">
@@ -147,113 +147,238 @@
                 </div>
 </section>
 
-                
+<section class="bg-[#FED801] snap-start px-4 py-8 antialiased md:py-16 h-screen flex items-center justify-between">
+    <!-- Left Column for iFrame with increased width -->
+    <div class="flex justify-center items-center flex-1">
+        <iframe class="w-full max-w-[100%] h-[70vh] " src="https://my.spline.design/hammyveggieburgercopy-481cc0eba24437f3a299dccede2e0415/" frameborder="0"></iframe>
+    </div>
 
-<section class="bg-[#FED801] snap-start px-4 py-8 antialiased md:py-16 h-screen">
-    <div class="mx-auto grid max-w-screen-xl rounded-lg bg-[#FED801] p-4 md:p-8 lg:grid-cols-12 lg:gap-8 lg:p-16 xl:gap-16">
-    
-    <div class="lg:col-span-5 lg:mt-0">
-        <a href="#">
-            <img class="mb-4 h-56 w-56 dark:hidden sm:h-96 sm:w-96 md:h-full md:w-full" src="/images/burger.png" alt="burger" />
-            <img class="mb-4 hidden dark:block md:h-full" src="/images/burger.png" alt="burger" />
+    <!-- Right Column for Text and Button -->
+    <div class="max-w-lg p-8 flex-1">
+        <h1 class="mb-3 text-2xl font-bold text-[#C7253E] md:text-4xl">
+            special offer<br />
+            <span>50%</span> off!
+        </h1>
+        <p class="mb-6">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto in nulla nostrum suscipit magnam illo expedita alias, totam optio inventore.
+        </p>
+        <a href="#" class="inline-flex items-center justify-center rounded-lg px-5 py-3 bg-red-700 text-white font-medium hover:bg-red-800 focus:ring-4 focus:ring-red-300">
+            Pre-order now
         </a>
     </div>
-    
-    <div class="me-auto place-self-center lg:col-span-7">
-        <h1 class="mb-3 text-2xl font-bold leading-tight tracking-tight text-[#C7253E] md:text-4xl">
-        Lorem ipsum dolor sit, amet consectetur<br />
-        lorem5.</h1>
-        <p class="mb-6">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto in nulla nostrum suscipit magnam illo expedita alias, totam optio inventore. </p>
-        <a href="#" class="inline-flex items-center justify-center rounded-lg bg-primary-700 px-5 py-3 text-center text-base font-medium text-white hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900 bg-red-700">
-        Pre-order now </a>
+</section>
+
+
+
+
+<section class="bg-[#FED801] snap-start overflow-hidden h-screen">
+    <h2 class="text-center text-6xl">Why Us?</h2>
+    <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 group">
+        
+        <!-- Text Section with Slide Left Animation for Large Screens -->
+        <div class="font-light sm:text-lg lg:transform lg:-translate-x-full lg:opacity-0 lg:transition-transform lg:duration-500 lg:ease-in-out lg:group-hover:translate-x-0 lg:group-hover:opacity-100">
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-[#C7253E]">10 Years of Experience</h2>
+            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus aliquam amet qui recusandae omnis ducimus? Quasi voluptatem deserunt maiores doloremque recusandae ratione perferendis ad voluptate commodi, voluptatibus possimus, fugit quod.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit, recusandae.</p>
+        </div>
+        
+        <!-- Image Section with Slide Right Animation for Large Screens -->
+        <div class="grid grid-cols-2 gap-4 mt-8 lg:transform lg:translate-x-full lg:opacity-0 lg:transition-transform lg:duration-500 lg:ease-in-out lg:group-hover:translate-x-0 lg:group-hover:opacity-100">
+            <img class="w-full rounded-lg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTmkGcDBMWYGhb-lDa1VOxI2bmoo8q98X3vQ&s" alt="office content 1">
+            <img class="mt-4 w-full lg:mt-10 rounded-lg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTmkGcDBMWYGhb-lDa1VOxI2bmoo8q98X3vQ&s" alt="office content 2">
+        </div>
+        
     </div>
-    
+</section>
+
+<section class="bg-[#FED801] snap-start overflow-hidden h-screen flex">
+    <div class="gap-16 items-center justify-center m-auto py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 group">
+        
+        <!-- Image Section with Slide Right Animation for Large Screens -->
+        <div class="grid grid-cols-2 gap-4 mt-8 lg:transform lg:-translate-x-full lg:opacity-0 lg:transition-transform lg:duration-500 lg:ease-in-out lg:group-hover:translate-x-0 lg:group-hover:opacity-100">
+            <img class="w-full rounded-lg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTmkGcDBMWYGhb-lDa1VOxI2bmoo8q98X3vQ&s" alt="office content 1">
+            <img class="mt-4 w-full lg:mt-10 rounded-lg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTmkGcDBMWYGhb-lDa1VOxI2bmoo8q98X3vQ&s" alt="office content 2">
+        </div>
+
+        <!-- Text Section with Slide Left Animation for Large Screens -->
+        <div class="font-light sm:text-lg lg:transform lg:translate-x-full lg:opacity-0 lg:transition-transform lg:duration-500 lg:ease-in-out lg:group-hover:translate-x-0 lg:group-hover:opacity-100">
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-[#C7253E]">200+ Professional Chefs</h2>
+            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus aliquam amet qui recusandae omnis ducimus? Quasi voluptatem deserunt maiores doloremque recusandae ratione perferendis ad voluptate commodi, voluptatibus possimus, fugit quod.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit, recusandae.</p>
+        </div>
+        
+    </div>
+</section>
+
+<section class="bg-[#FED801] snap-start overflow-hidden h-screen flex">
+    <div class="gap-16 items-center justify-center m-auto  py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 group">
+        
+        <!-- Text Section with Slide Left Animation for Large Screens -->
+        <div class="font-light sm:text-lg lg:transform lg:-translate-x-full lg:opacity-0 lg:transition-transform lg:duration-500 lg:ease-in-out lg:group-hover:translate-x-0 lg:group-hover:opacity-100">
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-[#C7253E]">5000+ Happy Customers</h2>
+            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus aliquam amet qui recusandae omnis ducimus? Quasi voluptatem deserunt maiores doloremque recusandae ratione perferendis ad voluptate commodi, voluptatibus possimus, fugit quod.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit, recusandae.</p>
+        </div>
+        
+        <!-- Image Section with Slide Right Animation for Large Screens -->
+        <div class="grid grid-cols-2 gap-4 mt-8 lg:transform lg:translate-x-full lg:opacity-0 lg:transition-transform lg:duration-500 lg:ease-in-out lg:group-hover:translate-x-0 lg:group-hover:opacity-100">
+            <img class="w-full rounded-lg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTmkGcDBMWYGhb-lDa1VOxI2bmoo8q98X3vQ&s" alt="office content 1">
+            <img class="mt-4 w-full lg:mt-10 rounded-lg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTmkGcDBMWYGhb-lDa1VOxI2bmoo8q98X3vQ&s" alt="office content 2">
+        </div>
+        
+    </div>
+</section>
+
+
+<section class="bg-[#FED801] snap-start overflow-hidden h-screen flex">
+    <div class="gap-16 items-center justify-center m-auto  py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 group">
+        
+        <!-- Image Section with Slide Right Animation for Large Screens -->
+        <div class="grid grid-cols-2 gap-4 mt-8 lg:transform lg:-translate-x-full lg:opacity-0 lg:transition-transform lg:duration-500 lg:ease-in-out lg:group-hover:translate-x-0 lg:group-hover:opacity-100">
+            <img class="w-full rounded-lg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTmkGcDBMWYGhb-lDa1VOxI2bmoo8q98X3vQ&s" alt="office content 1">
+            <img class="mt-4 w-full lg:mt-10 rounded-lg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTmkGcDBMWYGhb-lDa1VOxI2bmoo8q98X3vQ&s" alt="office content 2">
+        </div>
+
+        <!-- Text Section with Slide Left Animation for Large Screens -->
+        <div class="font-light sm:text-lg lg:transform lg:translate-x-full lg:opacity-0 lg:transition-transform lg:duration-500 lg:ease-in-out lg:group-hover:translate-x-0 lg:group-hover:opacity-100">
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-[#C7253E]">20+ Awards Won</h2>
+            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus aliquam amet qui recusandae omnis ducimus? Quasi voluptatem deserunt maiores doloremque recusandae ratione perferendis ad voluptate commodi, voluptatibus possimus, fugit quod.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit, recusandae.</p>
+        </div>
+        
+    </div>
+</section>
+
+
+<section class="snap-start overflow-hidden h-screen">
+<div class="mt-6 h-screen ">
+    <div class="max-w-4xl mx-auto relative">
+        <div class="text-center">
+            <h2 class="text-gray-800 text-3xl font-extrabold">customers reviews</h2>
+            <p class="text-sm text-gray-800 mt-6 leading-relaxed">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem corrupti ipsa quo debitis asperiores deleniti obcaecati adipisci fugiat dolore nisi.
+            </p>
+        </div>
+
+        <div class="max-w-xl mt-16 mx-auto">
+            <div class="carousel relative overflow-hidden">
+                <!-- Testimonial 1 -->
+                <div class="carousel-item absolute inset-0 transition-opacity duration-1000 ease-in-out opacity-100">
+                    <div class="flex flex-col items-center text-center">
+                        <img src="https://readymadeui.com/team-1.webp" class="w-28 h-28 rounded-full shadow-[0_2px_22px_-4px_rgba(93,96,127,0.6)] border-2 border-white" />
+                        <div class="mt-4">
+                            <h4 class="text-gray-800 text-base font-extrabold">John Doe</h4>
+                            <p class="text-xs text-gray-500 mt-1">CEO, Company</p>
+                        </div>
+                        <div class="mt-6 text-center">
+                            <p class="text-sm leading-relaxed">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quia eius magnam nemo officiis eveniet officia at, rem sapiente ab!  
+                            </p>
+                        </div>
+                        <div class="flex justify-center space-x-1.5 mt-4">
+                            <svg class="w-[18px] fill-[#C7253E]" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                            </svg>
+                            <svg class="w-[18px] fill-[#C7253E]" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                            </svg>
+                            <svg class="w-[18px] fill-[#C7253E]" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                            </svg>
+                            <svg class="w-[18px] fill-[#CED5D8]" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                            </svg>
+                            <svg class="w-[18px] fill-[#CED5D8]" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="carousel-item absolute inset-0 transition-opacity duration-1000 ease-in-out opacity-0">
+                    <div class="flex flex-col items-center text-center">
+                        <img src="https://readymadeui.com/team-2.webp" class="w-28 h-28 rounded-full shadow-[0_2px_22px_-4px_rgba(93,96,127,0.6)] border-2 border-white" />
+                        <div class="mt-4">
+                            <h4 class="text-gray-800 text-base font-extrabold">Jane Smith</h4>
+                            <p class="text-xs text-gray-500 mt-1">Manager, Business</p>
+                        </div>
+                        <div class="mt-6 text-center">
+                            <p class="text-sm leading-relaxed">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, distinctio?
+                            </p>
+                        </div>
+                        <div class="flex justify-center space-x-1.5 mt-4">
+                            <svg class="w-[18px] fill-[#C7253E]" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                            </svg>
+                            <svg class="w-[18px] fill-[#C7253E]" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                            </svg>
+                            <svg class="w-[18px] fill-[#C7253E]" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                            </svg>
+                            <svg class="w-[18px] fill-[#CED5D8]" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                            </svg>
+                            <svg class="w-[18px] fill-[#CED5D8]" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="carousel-item absolute inset-0 transition-opacity duration-1000 ease-in-out opacity-0">
+                    <div class="flex flex-col items-center text-center">
+                        <img src="https://readymadeui.com/team-3.webp" class="w-28 h-28 rounded-full shadow-[0_2px_22px_-4px_rgba(93,96,127,0.6)] border-2 border-white" />
+                        <div class="mt-4">
+                            <h4 class="text-gray-800 text-base font-extrabold">Alice Johnson</h4>
+                            <p class="text-xs text-gray-500 mt-1">Founder, Startup</p>
+                        </div>
+                        <div class="mt-6 text-center">
+                            <p class="text-sm leading-relaxed">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, voluptates.
+                            </p>
+                        </div>
+                        <div class="flex justify-center space-x-1.5 mt-4">
+                            <svg class="w-[18px] fill-[#C7253E]" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                            </svg>
+                            <svg class="w-[18px] fill-[#C7253E]" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                            </svg>
+                            <svg class="w-[18px] fill-[#C7253E]" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                            </svg>
+                            <svg class="w-[18px] fill-[#CED5D8]" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                            </svg>
+                            <svg class="w-[18px] fill-[#CED5D8]" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Navigation Controls -->
+                <div class="bg-gray-300 w-10 h-10 grid items-center justify-center rounded-full rotate-90 shrink-0 cursor-pointer absolute left-0 top-0 bottom-0 my-auto" onclick="prevSlide()">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-3 fill-gray-800 inline" viewBox="0 0 24 24">
+                        <path fill-rule="evenodd" d="M11.99997 18.1669a2.38 2.38 0 0 1-1.68266-.69733l-9.52-9.52a2.38 2.38 0 1 1 3.36532-3.36532l7.83734 7.83734 7.83734-7.83734a2.38 2.38 0 1 1 3.36532 3.36532l-9.52 9.52a2.38 2.38 0 0 1-1.68266.69734z" clip-rule="evenodd"></path>
+                    </svg>
+                </div>
+                <div class="bg-gray-800 w-10 h-10 grid items-center justify-center rounded-full -rotate-90 shrink-0 cursor-pointer absolute right-0 top-0 bottom-0 my-auto" onclick="nextSlide()">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-3 fill-[#fff] inline" viewBox="0 0 24 24">
+                        <path fill-rule="evenodd" d="M11.99997 18.1669a2.38 2.38 0 0 1-1.68266-.69733l-9.52-9.52a2.38 2.38 0 1 1 3.36532-3.36532l7.83734 7.83734 7.83734-7.83734a2.38 2.38 0 1 1 3.36532 3.36532l-9.52 9.52a2.38 2.38 0 0 1-1.68266.69734z" clip-rule="evenodd"></path>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 </section>
-
-
-<section class="bg-[#FED801]  snap-start overflow-hidden h-screen">
-    <h2 class="text-center text-6xl">why us?</h2>
-    <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6 group">
-        
-        <!-- Text Section with Slide Left Animation -->
-        <div class="font-light sm:text-lg transform -translate-x-full opacity-0 transition-transform duration-1000 ease-in-out group-hover:translate-x-0 group-hover:opacity-100">
-            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-[#C7253E]">Lorem ipsum dolor sit amet.</h2>
-            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus aliquam amet qui recusandae omnis ducimus? Quasi voluptatem deserunt maiores doloremque recusandae ratione perferendis ad voluptate commodi, voluptatibus possimus, fugit quod.</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit, recusandae.</p>
-        </div>
-        
-        <!-- Image Section with Slide Right Animation -->
-        <div class="grid grid-cols-2 gap-4 mt-8 transform translate-x-full opacity-0 transition-transform duration-1000 ease-in-out group-hover:translate-x-0 group-hover:opacity-100">
-            <img class="w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png" alt="office content 1">
-            <img class="mt-4 w-full lg:mt-10 rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png" alt="office content 2">
-        </div>
-        
-    </div>
-</section>
-
-
-<section class="bg-[#FED801]  snap-start overflow-hidden h-screen ">
-<h2 class="text-center text-6xl">why us?</h2>
-    <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6 group">
-        
-        <!-- Image Section with Slide Right Animation -->
-        <div class="grid grid-cols-2 gap-4 mt-8 transform -translate-x-full opacity-0 transition-transform duration-1000 ease-in-out group-hover:translate-x-0 group-hover:opacity-100">
-            <img class="w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png" alt="office content 1">
-            <img class="mt-4 w-full lg:mt-10 rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png" alt="office content 2">
-        </div>
-
-        <!-- Text Section with Slide Left Animation -->
-        <div class="font-light sm:text-lg transform translate-x-full opacity-0 transition-transform duration-1000 ease-in-out group-hover:translate-x-0 group-hover:opacity-100">
-            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-[#C7253E]">Lorem ipsum dolor sit amet.</h2>
-            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus aliquam amet qui recusandae omnis ducimus? Quasi voluptatem deserunt maiores doloremque recusandae ratione perferendis ad voluptate commodi, voluptatibus possimus, fugit quod.</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit, recusandae.</p>
-        </div>
-        
-    </div>
-</section>
-
-<section class="bg-[#FED801]  snap-start overflow-hidden h-screen ">
-<h2 class="text-center text-6xl">why us?</h2>
-    <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6 group">
-        
-        <!-- Text Section with Slide Left Animation -->
-        <div class="font-light sm:text-lg transform -translate-x-full opacity-0 transition-transform duration-1000 ease-in-out group-hover:translate-x-0 group-hover:opacity-100">
-            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-[#C7253E]">Lorem ipsum dolor sit amet.</h2>
-            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus aliquam amet qui recusandae omnis ducimus? Quasi voluptatem deserunt maiores doloremque recusandae ratione perferendis ad voluptate commodi, voluptatibus possimus, fugit quod.</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit, recusandae.</p>
-        </div>
-        
-        <!-- Image Section with Slide Right Animation -->
-        <div class="grid grid-cols-2 gap-4 mt-8 transform translate-x-full opacity-0 transition-transform duration-1000 ease-in-out group-hover:translate-x-0 group-hover:opacity-100">
-            <img class="w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png" alt="office content 1">
-            <img class="mt-4 w-full lg:mt-10 rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png" alt="office content 2">
-        </div>
-        
-    </div>
-</section>
-
-<section class="bg-[#FED801]  snap-start overflow-hidden h-screen">
-<h2 class="text-center text-6xl">why us?</h2>
-    <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6 group">
-        
-        <!-- Image Section with Slide Right Animation -->
-        <div class="grid grid-cols-2 gap-4 mt-8 transform -translate-x-full opacity-0 transition-transform duration-1000 ease-in-out group-hover:translate-x-0 group-hover:opacity-100">
-            <img class="w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png" alt="office content 1">
-            <img class="mt-4 w-full lg:mt-10 rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png" alt="office content 2">
-        </div>
-
-        <!-- Text Section with Slide Left Animation -->
-        <div class="font-light sm:text-lg transform translate-x-full opacity-0 transition-transform duration-1000 ease-in-out group-hover:translate-x-0 group-hover:opacity-100">
-            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-[#C7253E]">Lorem ipsum dolor sit amet.</h2>
-            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus aliquam amet qui recusandae omnis ducimus? Quasi voluptatem deserunt maiores doloremque recusandae ratione perferendis ad voluptate commodi, voluptatibus possimus, fugit quod.</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit, recusandae.</p>
-        </div>
-        
-    </div>
-</section>
 </main>
+
 
 
 <footer class="bg-white dark:bg-gray-900">
