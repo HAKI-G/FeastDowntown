@@ -98,3 +98,93 @@ function prevSlide() {
 
 // Initialize carousel
 showSlide(currentSlide);
+
+// burger popup
+function openPopup() {
+    const popup = document.getElementById("popupOverlay");
+    popup.classList.remove("opacity-0", "pointer-events-none");
+}
+
+function closePopup() {
+    const popup = document.getElementById("popupOverlay");
+    popup.classList.add("opacity-0", "pointer-events-none");
+}
+// tomato pop up
+function openTomatoPopup() {
+    const popup = document.getElementById("tomatoPopupOverlay");
+    popup.classList.remove("opacity-0", "pointer-events-none");
+}
+
+function closeTomatoPopup() {
+    const popup = document.getElementById("tomatoPopupOverlay");
+    popup.classList.add("opacity-0", "pointer-events-none");
+}
+// chicken pop up
+function openFriedChickenPopup() {
+    const popup = document.getElementById("friedChickenPopupOverlay");
+    popup.classList.remove("opacity-0", "pointer-events-none");
+}
+
+function closeFriedChickenPopup() {
+    const popup = document.getElementById("friedChickenPopupOverlay");
+    popup.classList.add("opacity-0", "pointer-events-none");
+}
+// lasagna popup
+function openLasagnaPopup() {
+    const popup = document.getElementById("lasagnaPopupOverlay");
+    popup.classList.remove("opacity-0", "pointer-events-none");
+}
+
+function closeLasagnaPopup() {
+    const popup = document.getElementById("lasagnaPopupOverlay");
+    popup.classList.add("opacity-0", "pointer-events-none");
+}
+
+// chicken wings pop up
+
+function openChickenWingsPopup() {
+    const popup = document.getElementById("chickenWingsPopupOverlay");
+    popup.classList.remove("opacity-0", "pointer-events-none");
+}
+
+function closeChickenWingsPopup() {
+    const popup = document.getElementById("chickenWingsPopupOverlay");
+    popup.classList.add("opacity-0", "pointer-events-none");
+}
+
+// spag pop up 
+function openSpagPopup() {
+    const popup = document.getElementById("spagPopupOverlay");
+    popup.classList.remove("opacity-0", "pointer-events-none");
+}
+
+function closeSpagPopup() {
+    const popup = document.getElementById("spagPopupOverlay");
+    popup.classList.add("opacity-0", "pointer-events-none");
+}
+
+// halohalo
+function openHaloHaloPopup() {
+    const popup = document.getElementById("haloHaloPopupOverlay");
+    popup.classList.remove("opacity-0", "pointer-events-none");
+}
+
+function closeHaloHaloPopup() {
+    const popup = document.getElementById("haloHaloPopupOverlay");
+    popup.classList.add("opacity-0", "pointer-events-none");
+}
+// pizza pop up 
+
+function openPizzaPopup() {
+    const popup = document.getElementById("pizzaPopupOverlay");
+    popup.classList.remove("opacity-0", "pointer-events-none");
+}
+
+function closePizzaPopup() {
+    const popup = document.getElementById("pizzaPopupOverlay");
+    popup.classList.add("opacity-0", "pointer-events-none");
+}
+
+
+
+
