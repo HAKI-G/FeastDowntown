@@ -127,15 +127,20 @@
 
 <!-- Pop-up overlay -->
                     <div id="popupOverlay" class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center opacity-0 pointer-events-none transition-opacity duration-300">
-                        <div class="bg-white w-[70%] h-[70%] p-4 rounded-lg flex items-center justify-center relative">
+                        <div class="bg-[#FED801] w-[70%] h-[70%] p-4 rounded-lg flex items-center justify-center relative">
                             <img class="w-full h-full object-contain" src="/images/burger.png" alt="burger">
-                                <div class="description">  
-                                    <h1 class="text-6xl text-[#C7253E]">burger</h1>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque maxime voluptate maiores eos alias et ipsum doloribus mollitia quam cum!</p>
+                            <div class="description">  
+                                <h1 class="text-6xl text-[#C7253E]">burger</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque maxime voluptate maiores eos alias et ipsum doloribus mollitia quam cum!</p>
+                                <!-- button inside description -->
+                                <button class="mt-4 px-4 py-2 bg-[#C7253E] text-white rounded-lg hover:bg-[#A01C2D] transition duration-200">
+                                    order now
+                                </button>
                             </div>
                             <button onclick="closePopup()" class="absolute top-2 right-2 text-black text-lg font-bold">X</button>
                         </div>
                     </div>
+
 
                     <div class="bg-[#FFC82A] flex items-center justify-center m-2 cursor-pointer" onclick="openTomatoPopup()">
                         <img class="w-full h-full object-contain" src="/images/tomato2.png" alt="pizza tomato">
@@ -143,11 +148,14 @@
 
 <!-- Tomato pop-up overlay -->
                     <div id="tomatoPopupOverlay" class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center opacity-0 pointer-events-none transition-opacity duration-300">
-                        <div class="bg-white w-[70%] h-[70%] p-4 rounded-lg flex items-center justify-center relative">
+                        <div class="bg-[#FED801] w-[70%] h-[70%] p-4 rounded-lg flex items-center justify-center relative">
                             <img class="w-full h-full object-contain" src="/images/tomato2.png" alt="pizza tomato">
                             <div class="description">  
                                 <h1 class="text-6xl text-[#C7253E]">Pizza</h1>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque maxime voluptate maiores eos alias et ipsum doloribus mollitia quam cum!</p>
+                                <button class="mt-4 px-4 py-2 bg-[#C7253E] text-white rounded-lg hover:bg-[#A01C2D] transition duration-200">
+                                    order now
+                                </button>
                             </div>
                             <button onclick="closeTomatoPopup()" class="absolute top-2 right-2 text-black text-lg font-bold">X</button>
                         </div>
@@ -159,11 +167,14 @@
 
 <!-- Fried chicken pop-up overlay -->
                     <div id="friedChickenPopupOverlay" class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center opacity-0 pointer-events-none transition-opacity duration-300">
-                        <div class="bg-white w-[70%] h-[70%] p-4 rounded-lg flex items-center justify-center relative">
+                        <div class="bg-[#FED801] w-[70%] h-[70%] p-4 rounded-lg flex items-center justify-center relative">
                             <img class="w-full h-full object-contain" src="/images/friedchicken.png" alt="friedchicken">
                             <div class="description">  
                                 <h1 class="text-6xl text-[#C7253E]">fried chicken</h1>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque maxime voluptate maiores eos alias et ipsum doloribus mollitia quam cum!</p>
+                                <button class="mt-4 px-4 py-2 bg-[#C7253E] text-white rounded-lg hover:bg-[#A01C2D] transition duration-200">
+                                    order now
+                                </button>
                             </div>
                             <button onclick="closeFriedChickenPopup()" class="absolute top-2 right-2 text-black text-lg font-bold">X</button>
                         </div>
@@ -175,11 +186,14 @@
 
 <!-- Lasagna pop-up overlay -->
                     <div id="lasagnaPopupOverlay" class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center opacity-0 pointer-events-none transition-opacity duration-300">
-                        <div class="bg-white w-[70%] h-[70%] p-4 rounded-lg flex items-center justify-center relative">
+                        <div class="bg-[#FED801] w-[70%] h-[70%] p-4 rounded-lg flex items-center justify-center relative">
                             <img class="w-full h-full object-contain" src="/images/lasagna.png" alt="lasagna">
                             <div class="description">  
                                 <h1 class="text-6xl text-[#C7253E]">lasagna</h1>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque maxime voluptate maiores eos alias et ipsum doloribus mollitia quam cum!</p>
+                                <button class="mt-4 px-4 py-2 bg-[#C7253E] text-white rounded-lg hover:bg-[#A01C2D] transition duration-200">
+                                    order now
+                                </button>
                             </div>
                             <button onclick="closeLasagnaPopup()" class="absolute top-2 right-2 text-black text-lg font-bold">X</button>
                         </div>
@@ -191,11 +205,14 @@
 
 <!-- Chicken wings pop-up overlay -->
                     <div id="chickenWingsPopupOverlay" class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center opacity-0 pointer-events-none transition-opacity duration-300">
-                        <div class="bg-white w-[70%] h-[70%] p-4 rounded-lg flex items-center justify-center relative">
+                        <div class="bg-[#FED801] w-[70%] h-[70%] p-4 rounded-lg flex items-center justify-center relative">
                             <img class="w-full h-full object-contain" src="/images/chickenwings.png" alt="chickenwings">
                             <div class="description">  
                                 <h1 class="text-6xl text-[#C7253E]">chicken wings</h1>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque maxime voluptate maiores eos alias et ipsum doloribus mollitia quam cum!</p>
+                                <button class="mt-4 px-4 py-2 bg-[#C7253E] text-white rounded-lg hover:bg-[#A01C2D] transition duration-200">
+                                    order now
+                                </button>
                             </div>
                             <button onclick="closeChickenWingsPopup()" class="absolute top-2 right-2 text-black text-lg font-bold">X</button>
                         </div>
@@ -207,11 +224,14 @@
 
 <!-- Spaghetti pop-up overlay -->
                     <div id="spagPopupOverlay" class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center opacity-0 pointer-events-none transition-opacity duration-300">
-                        <div class="bg-white w-[70%] h-[70%] p-4 rounded-lg flex items-center justify-center relative">
+                        <div class="bg-[#FED801] w-[70%] h-[70%] p-4 rounded-lg flex items-center justify-center relative">
                             <img class="w-full h-full object-contain" src="/images/spag.png" alt="spag">
                             <div class="description">  
                                 <h1 class="text-6xl text-[#C7253E]">Spaghetti</h1>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque maxime voluptate maiores eos alias et ipsum doloribus mollitia quam cum!</p>
+                                <button class="mt-4 px-4 py-2 bg-[#C7253E] text-white rounded-lg hover:bg-[#A01C2D] transition duration-200">
+                                    order now
+                                </button>
                             </div>
                             <button onclick="closeSpagPopup()" class="absolute top-2 right-2 text-black text-lg font-bold">X</button>
                         </div>
@@ -223,11 +243,14 @@
 
 <!-- Halo-halo pop-up overlay -->
                     <div id="haloHaloPopupOverlay" class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center opacity-0 pointer-events-none transition-opacity duration-300">
-                        <div class="bg-white w-[70%] h-[70%] p-4 rounded-lg flex items-center justify-center relative">
+                        <div class="bg-[#FED801] w-[70%] h-[70%] p-4 rounded-lg flex items-center justify-center relative">
                             <img class="w-full h-full object-contain" src="/images/halohalo.png" alt="halohalo">
                             <div class="description">  
                                 <h1 class="text-6xl text-[#C7253E]">halo-halo</h1>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque maxime voluptate maiores eos alias et ipsum doloribus mollitia quam cum!</p>
+                                <button class="mt-4 px-4 py-2 bg-[#C7253E] text-white rounded-lg hover:bg-[#A01C2D] transition duration-200">
+                                    order now
+                                </button>
                             </div>
                             <button onclick="closeHaloHaloPopup()" class="absolute top-2 right-2 text-black text-lg font-bold">X</button>
                         </div>
@@ -239,11 +262,14 @@
 
                     <!-- Pizza pop-up overlay -->
                     <div id="pizzaPopupOverlay" class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center opacity-0 pointer-events-none transition-opacity duration-300">
-                        <div class="bg-white w-[70%] h-[70%] p-4 rounded-lg flex items-center justify-center relative">
+                        <div class="bg-[#FED801] w-[70%] h-[70%] p-4 rounded-lg flex items-center justify-center relative">
                             <img class="w-full h-full object-contain" src="/images/pizza 2.png" alt="pizza">
                             <div class="description">  
                                 <h1 class="text-6xl text-[#C7253E]">pizza tomato</h1>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque maxime voluptate maiores eos alias et ipsum doloribus mollitia quam cum!</p>
+                                <button class="mt-4 px-4 py-2 bg-[#C7253E] text-white rounded-lg hover:bg-[#A01C2D] transition duration-200">
+                                    order now
+                                </button>
                             </div>
                             <button onclick="closePizzaPopup()" class="absolute top-2 right-2 text-black text-lg font-bold">X</button>
                         </div>
