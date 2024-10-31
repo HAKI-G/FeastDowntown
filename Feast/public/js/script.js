@@ -3,19 +3,19 @@ function toggleDropdown() {
     dropdown.classList.toggle("hidden");
 }
 
-const imgSlider = document.querySelector('.img-slider');
-const imgputahi = document.querySelectorAll('.img-item.putahi');
-const infoSlider = document.querySelector('.info-slider');
-const infobox = document.querySelector('.info-box');
+const imgSlider = document.querySelector(".img-slider");
+const imgputahi = document.querySelectorAll(".img-item.putahi");
+const infoSlider = document.querySelector(".info-slider");
+const infobox = document.querySelector(".info-box");
 
-const nextBtn = document.querySelector('.next-btn');
-const prevBtn = document.querySelector('.prev-btn');
+const nextBtn = document.querySelector(".next-btn");
+const prevBtn = document.querySelector(".prev-btn");
 
 let indexSlider = 0;
 let index = 0;
 let direction;
 
-nextBtn.addEventListener('click', () => {
+nextBtn.addEventListener("click", () => {
     indexSlider++;
     imgSlider.style.transform = `rotate(${indexSlider * -90}deg)`;
 
@@ -24,8 +24,8 @@ nextBtn.addEventListener('click', () => {
         index = 0;
     }
 
-    document.querySelector('.putahi.active').classList.remove('active');
-    imgputahi[index].classList.add('active');
+    document.querySelector(".putahi.active").classList.remove("active");
+    imgputahi[index].classList.add("active");
 
     if (direction === 1) {
         infoSlider.prepend(infoSlider.lastElementChild);
@@ -34,11 +34,11 @@ nextBtn.addEventListener('click', () => {
     direction = -1;
     console.log(direction);
 
-    infobox.style.justifyContent = 'flex-start';
-    infoSlider.style.transform = 'translateY(-25%)';
+    infobox.style.justifyContent = "flex-start";
+    infoSlider.style.transform = "translateY(-25%)";
 });
 
-prevBtn.addEventListener('click', () => {
+prevBtn.addEventListener("click", () => {
     indexSlider--;
     imgSlider.style.transform = `rotate(${indexSlider * -90}deg)`;
 
@@ -47,8 +47,8 @@ prevBtn.addEventListener('click', () => {
         index = imgputahi.length - 1;
     }
 
-    document.querySelector('.putahi.active').classList.remove('active');
-    imgputahi[index].classList.add('active');
+    document.querySelector(".putahi.active").classList.remove("active");
+    imgputahi[index].classList.add("active");
 
     if (direction === -1) {
         infoSlider.appendChild(infoSlider.firstElementChild);
@@ -57,32 +57,32 @@ prevBtn.addEventListener('click', () => {
     direction = 1;
     console.log(direction);
 
-    infobox.style.justifyContent = 'flex-end';
-    infoSlider.style.transform = 'translateY(25%)';
+    infobox.style.justifyContent = "flex-end";
+    infoSlider.style.transform = "translateY(25%)";
 });
 
-infoSlider.addEventListener('transitionend', () => { 
+infoSlider.addEventListener("transitionend", () => {
     if (direction === -1) {
         infoSlider.appendChild(infoSlider.firstElementChild);
     } else if (direction === 1) {
         infoSlider.prepend(infoSlider.lastElementChild);
     }
 
-    infoSlider.style.transition = 'none';
-    infoSlider.style.transform = 'translateY(0)';
+    infoSlider.style.transition = "none";
+    infoSlider.style.transform = "translateY(0)";
 
     setTimeout(() => {
-        infoSlider.style.transition = '.5s cubic-bezier(0.645, 0.045, 0.355, 1)';
+        infoSlider.style.transition =
+            ".5s cubic-bezier(0.645, 0.045, 0.355, 1)";
     });
 });
 
-
-const slides = document.querySelectorAll('.carousel-item');
+const slides = document.querySelectorAll(".carousel-item");
 let currentSlide = 0;
 
 function showSlide(index) {
     slides.forEach((slide, i) => {
-        slide.style.opacity = i === index ? '1' : '0';
+        slide.style.opacity = i === index ? "1" : "0";
     });
 }
 
@@ -152,7 +152,7 @@ function closeChickenWingsPopup() {
     popup.classList.add("opacity-0", "pointer-events-none");
 }
 
-// spag pop up 
+// spag pop up
 function openSpagPopup() {
     const popup = document.getElementById("spagPopupOverlay");
     popup.classList.remove("opacity-0", "pointer-events-none");
@@ -173,7 +173,7 @@ function closeHaloHaloPopup() {
     const popup = document.getElementById("haloHaloPopupOverlay");
     popup.classList.add("opacity-0", "pointer-events-none");
 }
-// pizza pop up 
+// pizza pop up
 
 function openPizzaPopup() {
     const popup = document.getElementById("pizzaPopupOverlay");
@@ -184,7 +184,3 @@ function closePizzaPopup() {
     const popup = document.getElementById("pizzaPopupOverlay");
     popup.classList.add("opacity-0", "pointer-events-none");
 }
-
-
-
-

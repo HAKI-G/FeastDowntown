@@ -116,139 +116,142 @@
 </section>
 
 <!-- section 3 -->
-<section class="h-screen  snap-start flex">
-    <div class="show-food lg:mx-40 lg:mt-[5%] ">
-                        <div class="product-list grid grid-cols-2 sm:grid sm:grid-cols-3 lg:grid lg:grid-cols-4 grid-flow-row ">
-    <div class="bg-[#FFC82A] flex items-center justify-center m-2 cursor-pointer" onclick="openPopup()">
-    <img class="w-full h-full object-contain" src="/images/burger.png" alt="burger">
-</div>
+<section class="h-screen  snap-start flex ">
+    <div class="show-products-list m-auto">
+        <div class="disply-list">
+            <div class="show-food lg:mx-40 ">
+                <div class="product-list grid grid-cols-2 sm:grid sm:grid-cols-3 lg:grid lg:grid-cols-4 grid-flow-row ">
+                    <div class="bg-[#FFC82A] flex items-center justify-center m-2 cursor-pointer" onclick="openPopup()">
+                    <img class="w-full h-full object-contain" src="/images/burger.png" alt="burger">
+            </div> 
 
 <!-- Pop-up overlay -->
-<div id="popupOverlay" class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center opacity-0 pointer-events-none transition-opacity duration-300">
-    <div class="bg-white w-[70%] h-[70%] p-4 rounded-lg flex items-center justify-center relative">
-        <img class="w-full h-full object-contain" src="/images/burger.png" alt="burger">
-        <div class="description">  
-            <h1 class="text-6xl text-[#C7253E]">burger</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque maxime voluptate maiores eos alias et ipsum doloribus mollitia quam cum!</p>
-        </div>
-        <button onclick="closePopup()" class="absolute top-2 right-2 text-black text-lg font-bold">X</button>
-    </div>
-</div>
+                    <div id="popupOverlay" class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center opacity-0 pointer-events-none transition-opacity duration-300">
+                        <div class="bg-white w-[70%] h-[70%] p-4 rounded-lg flex items-center justify-center relative">
+                            <img class="w-full h-full object-contain" src="/images/burger.png" alt="burger">
+                                <div class="description">  
+                                    <h1 class="text-6xl text-[#C7253E]">burger</h1>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque maxime voluptate maiores eos alias et ipsum doloribus mollitia quam cum!</p>
+                            </div>
+                            <button onclick="closePopup()" class="absolute top-2 right-2 text-black text-lg font-bold">X</button>
+                        </div>
+                    </div>
 
-<div class="bg-[#FFC82A] flex items-center justify-center m-2 cursor-pointer" onclick="openTomatoPopup()">
-    <img class="w-full h-full object-contain" src="/images/tomato2.png" alt="pizza tomato">
-</div>
+                    <div class="bg-[#FFC82A] flex items-center justify-center m-2 cursor-pointer" onclick="openTomatoPopup()">
+                        <img class="w-full h-full object-contain" src="/images/tomato2.png" alt="pizza tomato">
+                    </div>
 
 <!-- Tomato pop-up overlay -->
-<div id="tomatoPopupOverlay" class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center opacity-0 pointer-events-none transition-opacity duration-300">
-    <div class="bg-white w-[70%] h-[70%] p-4 rounded-lg flex items-center justify-center relative">
-        <img class="w-full h-full object-contain" src="/images/tomato2.png" alt="pizza tomato">
-        <div class="description">  
-            <h1 class="text-6xl text-[#C7253E]">Pizza</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque maxime voluptate maiores eos alias et ipsum doloribus mollitia quam cum!</p>
-        </div>
-        <button onclick="closeTomatoPopup()" class="absolute top-2 right-2 text-black text-lg font-bold">X</button>
-    </div>
-</div>
+                    <div id="tomatoPopupOverlay" class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center opacity-0 pointer-events-none transition-opacity duration-300">
+                        <div class="bg-white w-[70%] h-[70%] p-4 rounded-lg flex items-center justify-center relative">
+                            <img class="w-full h-full object-contain" src="/images/tomato2.png" alt="pizza tomato">
+                            <div class="description">  
+                                <h1 class="text-6xl text-[#C7253E]">Pizza</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque maxime voluptate maiores eos alias et ipsum doloribus mollitia quam cum!</p>
+                            </div>
+                            <button onclick="closeTomatoPopup()" class="absolute top-2 right-2 text-black text-lg font-bold">X</button>
+                        </div>
+                    </div>
 
-<div class="bg-[#FFC82A] flex items-center justify-center m-2 cursor-pointer" onclick="openFriedChickenPopup()">
-    <img class="w-full h-full object-contain" src="/images/friedchicken.png" alt="friedchicken">
-</div>
+                    <div class="bg-[#FFC82A] flex items-center justify-center m-2 cursor-pointer" onclick="openFriedChickenPopup()">
+                        <img class="w-full h-full object-contain" src="/images/friedchicken.png" alt="friedchicken">
+                    </div>
 
 <!-- Fried chicken pop-up overlay -->
-<div id="friedChickenPopupOverlay" class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center opacity-0 pointer-events-none transition-opacity duration-300">
-    <div class="bg-white w-[70%] h-[70%] p-4 rounded-lg flex items-center justify-center relative">
-        <img class="w-full h-full object-contain" src="/images/friedchicken.png" alt="friedchicken">
-        <div class="description">  
-            <h1 class="text-6xl text-[#C7253E]">fried chicken</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque maxime voluptate maiores eos alias et ipsum doloribus mollitia quam cum!</p>
-        </div>
-        <button onclick="closeFriedChickenPopup()" class="absolute top-2 right-2 text-black text-lg font-bold">X</button>
-    </div>
-</div>
+                    <div id="friedChickenPopupOverlay" class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center opacity-0 pointer-events-none transition-opacity duration-300">
+                        <div class="bg-white w-[70%] h-[70%] p-4 rounded-lg flex items-center justify-center relative">
+                            <img class="w-full h-full object-contain" src="/images/friedchicken.png" alt="friedchicken">
+                            <div class="description">  
+                                <h1 class="text-6xl text-[#C7253E]">fried chicken</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque maxime voluptate maiores eos alias et ipsum doloribus mollitia quam cum!</p>
+                            </div>
+                            <button onclick="closeFriedChickenPopup()" class="absolute top-2 right-2 text-black text-lg font-bold">X</button>
+                        </div>
+                    </div>
 
-<div class="bg-[#FFC82A] flex items-center justify-center m-2 cursor-pointer" onclick="openLasagnaPopup()">
-    <img class="w-full h-full object-contain" src="/images/lasagna.png" alt="lasagna">
-</div>
+                    <div class="bg-[#FFC82A] flex items-center justify-center m-2 cursor-pointer" onclick="openLasagnaPopup()">
+                        <img class="w-full h-full object-contain" src="/images/lasagna.png" alt="lasagna">
+                    </div>
 
 <!-- Lasagna pop-up overlay -->
-<div id="lasagnaPopupOverlay" class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center opacity-0 pointer-events-none transition-opacity duration-300">
-    <div class="bg-white w-[70%] h-[70%] p-4 rounded-lg flex items-center justify-center relative">
-        <img class="w-full h-full object-contain" src="/images/lasagna.png" alt="lasagna">
-        <div class="description">  
-            <h1 class="text-6xl text-[#C7253E]">lasagna</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque maxime voluptate maiores eos alias et ipsum doloribus mollitia quam cum!</p>
-        </div>
-        <button onclick="closeLasagnaPopup()" class="absolute top-2 right-2 text-black text-lg font-bold">X</button>
-    </div>
-</div>
+                    <div id="lasagnaPopupOverlay" class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center opacity-0 pointer-events-none transition-opacity duration-300">
+                        <div class="bg-white w-[70%] h-[70%] p-4 rounded-lg flex items-center justify-center relative">
+                            <img class="w-full h-full object-contain" src="/images/lasagna.png" alt="lasagna">
+                            <div class="description">  
+                                <h1 class="text-6xl text-[#C7253E]">lasagna</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque maxime voluptate maiores eos alias et ipsum doloribus mollitia quam cum!</p>
+                            </div>
+                            <button onclick="closeLasagnaPopup()" class="absolute top-2 right-2 text-black text-lg font-bold">X</button>
+                        </div>
+                    </div>
 
-<div class="bg-[#FFC82A] flex items-center justify-center m-2 cursor-pointer" onclick="openChickenWingsPopup()">
-    <img class="w-full h-full object-contain" src="/images/chickenwings.png" alt="chickenwings">
-</div>
+                    <div class="bg-[#FFC82A] flex items-center justify-center m-2 cursor-pointer" onclick="openChickenWingsPopup()">
+                        <img class="w-full h-full object-contain" src="/images/chickenwings.png" alt="chickenwings">
+                    </div>
 
 <!-- Chicken wings pop-up overlay -->
-<div id="chickenWingsPopupOverlay" class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center opacity-0 pointer-events-none transition-opacity duration-300">
-    <div class="bg-white w-[70%] h-[70%] p-4 rounded-lg flex items-center justify-center relative">
-        <img class="w-full h-full object-contain" src="/images/chickenwings.png" alt="chickenwings">
-        <div class="description">  
-            <h1 class="text-6xl text-[#C7253E]">chicken wings</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque maxime voluptate maiores eos alias et ipsum doloribus mollitia quam cum!</p>
-        </div>
-        <button onclick="closeChickenWingsPopup()" class="absolute top-2 right-2 text-black text-lg font-bold">X</button>
-    </div>
-</div>
+                    <div id="chickenWingsPopupOverlay" class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center opacity-0 pointer-events-none transition-opacity duration-300">
+                        <div class="bg-white w-[70%] h-[70%] p-4 rounded-lg flex items-center justify-center relative">
+                            <img class="w-full h-full object-contain" src="/images/chickenwings.png" alt="chickenwings">
+                            <div class="description">  
+                                <h1 class="text-6xl text-[#C7253E]">chicken wings</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque maxime voluptate maiores eos alias et ipsum doloribus mollitia quam cum!</p>
+                            </div>
+                            <button onclick="closeChickenWingsPopup()" class="absolute top-2 right-2 text-black text-lg font-bold">X</button>
+                        </div>
+                    </div>
 
-<div class="bg-[#FFC82A] flex items-center justify-center m-2 cursor-pointer" onclick="openSpagPopup()">
-    <img class="w-full h-full object-contain" src="/images/spag.png" alt="spag">
-</div>
+                    <div class="bg-[#FFC82A] flex items-center justify-center m-2 cursor-pointer" onclick="openSpagPopup()">
+                        <img class="w-full h-full object-contain" src="/images/spag.png" alt="spag">
+                    </div>
 
 <!-- Spaghetti pop-up overlay -->
-<div id="spagPopupOverlay" class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center opacity-0 pointer-events-none transition-opacity duration-300">
-    <div class="bg-white w-[70%] h-[70%] p-4 rounded-lg flex items-center justify-center relative">
-        <img class="w-full h-full object-contain" src="/images/spag.png" alt="spag">
-        <div class="description">  
-            <h1 class="text-6xl text-[#C7253E]">Spaghetti</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque maxime voluptate maiores eos alias et ipsum doloribus mollitia quam cum!</p>
-        </div>
-        <button onclick="closeSpagPopup()" class="absolute top-2 right-2 text-black text-lg font-bold">X</button>
-    </div>
-</div>
+                    <div id="spagPopupOverlay" class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center opacity-0 pointer-events-none transition-opacity duration-300">
+                        <div class="bg-white w-[70%] h-[70%] p-4 rounded-lg flex items-center justify-center relative">
+                            <img class="w-full h-full object-contain" src="/images/spag.png" alt="spag">
+                            <div class="description">  
+                                <h1 class="text-6xl text-[#C7253E]">Spaghetti</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque maxime voluptate maiores eos alias et ipsum doloribus mollitia quam cum!</p>
+                            </div>
+                            <button onclick="closeSpagPopup()" class="absolute top-2 right-2 text-black text-lg font-bold">X</button>
+                        </div>
+                    </div>
 
-<div class="bg-[#FFC82A] flex items-center justify-center m-2 cursor-pointer" onclick="openHaloHaloPopup()">
-    <img class="w-full h-full object-contain" src="/images/halohalo.png" alt="halohalo">
-</div>
+                    <div class="bg-[#FFC82A] flex items-center justify-center m-2 cursor-pointer" onclick="openHaloHaloPopup()">
+                        <img class="w-full h-full object-contain" src="/images/halohalo.png" alt="halohalo">
+                    </div>
 
 <!-- Halo-halo pop-up overlay -->
-<div id="haloHaloPopupOverlay" class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center opacity-0 pointer-events-none transition-opacity duration-300">
-    <div class="bg-white w-[70%] h-[70%] p-4 rounded-lg flex items-center justify-center relative">
-        <img class="w-full h-full object-contain" src="/images/halohalo.png" alt="halohalo">
-        <div class="description">  
-            <h1 class="text-6xl text-[#C7253E]">halo-halo</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque maxime voluptate maiores eos alias et ipsum doloribus mollitia quam cum!</p>
-        </div>
-        <button onclick="closeHaloHaloPopup()" class="absolute top-2 right-2 text-black text-lg font-bold">X</button>
-    </div>
-</div>
+                    <div id="haloHaloPopupOverlay" class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center opacity-0 pointer-events-none transition-opacity duration-300">
+                        <div class="bg-white w-[70%] h-[70%] p-4 rounded-lg flex items-center justify-center relative">
+                            <img class="w-full h-full object-contain" src="/images/halohalo.png" alt="halohalo">
+                            <div class="description">  
+                                <h1 class="text-6xl text-[#C7253E]">halo-halo</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque maxime voluptate maiores eos alias et ipsum doloribus mollitia quam cum!</p>
+                            </div>
+                            <button onclick="closeHaloHaloPopup()" class="absolute top-2 right-2 text-black text-lg font-bold">X</button>
+                        </div>
+                    </div>
 
-<div class="bg-[#FFC82A] flex items-center justify-center m-2 cursor-pointer" onclick="openPizzaPopup()">
-    <img class="w-full h-full object-contain" src="/images/pizza 2.png" alt="pizza">
-</div>
+                    <div class="bg-[#FFC82A] flex items-center justify-center m-2 cursor-pointer" onclick="openPizzaPopup()">
+                        <img class="w-full h-full object-contain" src="/images/pizza 2.png" alt="pizza">
+                    </div>
 
-<!-- Pizza pop-up overlay -->
-<div id="pizzaPopupOverlay" class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center opacity-0 pointer-events-none transition-opacity duration-300">
-    <div class="bg-white w-[70%] h-[70%] p-4 rounded-lg flex items-center justify-center relative">
-        <img class="w-full h-full object-contain" src="/images/pizza 2.png" alt="pizza">
-        <div class="description">  
-            <h1 class="text-6xl text-[#C7253E]">pizza tomato</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque maxime voluptate maiores eos alias et ipsum doloribus mollitia quam cum!</p>
-        </div>
-        <button onclick="closePizzaPopup()" class="absolute top-2 right-2 text-black text-lg font-bold">X</button>
-    </div>
-</div>
-
+                    <!-- Pizza pop-up overlay -->
+                    <div id="pizzaPopupOverlay" class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center opacity-0 pointer-events-none transition-opacity duration-300">
+                        <div class="bg-white w-[70%] h-[70%] p-4 rounded-lg flex items-center justify-center relative">
+                            <img class="w-full h-full object-contain" src="/images/pizza 2.png" alt="pizza">
+                            <div class="description">  
+                                <h1 class="text-6xl text-[#C7253E]">pizza tomato</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque maxime voluptate maiores eos alias et ipsum doloribus mollitia quam cum!</p>
+                            </div>
+                            <button onclick="closePizzaPopup()" class="absolute top-2 right-2 text-black text-lg font-bold">X</button>
+                        </div>
+                    </div>
                     </div>
                 </div>
+        </div>
+    </div>
 </section>
 
 <section class="bg-[#FED801] snap-start px-4 py-8 antialiased md:py-16 h-screen flex items-center justify-between">
@@ -275,25 +278,28 @@
 
 
 
-<section class="bg-[#FED801] snap-start overflow-hidden h-screen">
-    <h2 class="text-center text-6xl">Why Us?</h2>
-    <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 group">
-        
-        <!-- Text Section with Slide Left Animation for Large Screens -->
-        <div class="font-light sm:text-lg lg:transform lg:-translate-x-full lg:opacity-0 lg:transition-transform lg:duration-500 lg:ease-in-out lg:group-hover:translate-x-0 lg:group-hover:opacity-100">
-            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-[#C7253E]">10 Years of Experience</h2>
-            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus aliquam amet qui recusandae omnis ducimus? Quasi voluptatem deserunt maiores doloremque recusandae ratione perferendis ad voluptate commodi, voluptatibus possimus, fugit quod.</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit, recusandae.</p>
+<section class="bg-[#FED801] snap-start overflow-hidden h-screen flex items-center justify-center">
+    <div class="first-show-why-us w-full px-4 py-8 mx-auto max-w-screen-xl">
+        <h2 class="text-center text-6xl">Why Us?</h2>
+        <div class="gap-16 items-center mt-8 lg:mt-16 lg:grid lg:grid-cols-2 group">
+            
+            <!-- Text Section with Slide Left Animation for Large Screens -->
+            <div class="font-light sm:text-lg lg:transform lg:-translate-x-full lg:opacity-0 lg:transition-transform lg:duration-500 lg:ease-in-out lg:group-hover:translate-x-0 lg:group-hover:opacity-100">
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-[#C7253E]">10 Years of Experience</h2>
+                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus aliquam amet qui recusandae omnis ducimus? Quasi voluptatem deserunt maiores doloremque recusandae ratione perferendis ad voluptate commodi, voluptatibus possimus, fugit quod.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit, recusandae.</p>
+            </div>
+            
+            <!-- Image Section with Slide Right Animation for Large Screens -->
+            <div class="grid grid-cols-2 gap-4 mt-8 lg:transform lg:translate-x-full lg:opacity-0 lg:transition-transform lg:duration-500 lg:ease-in-out lg:group-hover:translate-x-0 lg:group-hover:opacity-100">
+                <img class="w-full rounded-lg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTmkGcDBMWYGhb-lDa1VOxI2bmoo8q98X3vQ&s" alt="office content 1">
+                <img class="mt-4 w-full lg:mt-10 rounded-lg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTmkGcDBMWYGhb-lDa1VOxI2bmoo8q98X3vQ&s" alt="office content 2">
+            </div>
+            
         </div>
-        
-        <!-- Image Section with Slide Right Animation for Large Screens -->
-        <div class="grid grid-cols-2 gap-4 mt-8 lg:transform lg:translate-x-full lg:opacity-0 lg:transition-transform lg:duration-500 lg:ease-in-out lg:group-hover:translate-x-0 lg:group-hover:opacity-100">
-            <img class="w-full rounded-lg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTmkGcDBMWYGhb-lDa1VOxI2bmoo8q98X3vQ&s" alt="office content 1">
-            <img class="mt-4 w-full lg:mt-10 rounded-lg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTmkGcDBMWYGhb-lDa1VOxI2bmoo8q98X3vQ&s" alt="office content 2">
-        </div>
-        
     </div>
 </section>
+
 
 <section class="bg-[#FED801] snap-start overflow-hidden h-screen flex">
     <div class="gap-16 items-center justify-center m-auto py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 group">
