@@ -61,26 +61,26 @@
                 <img src="/images/potatobg.png" alt="burgerbg.png">
             </div>
             <div class="img-item putahi " style="--i:1;">
-                <img  src="/images/tomatobg.png" alt="pizza">
+                <img  src="/images/potatobg.png" alt="pizza">
             </div>
             <div class="img-item putahi" style="--i:2;">
-                <img  src="/images/onionsbg.png" alt="friedchicken.png">
+                <img  src="/images/potatobg.png" alt="friedchicken.png">
             </div>
             <div class="img-item putahi" style="--i:3;">
-                <img   src="/images/greenbg.png" alt="lasagna.png">
+                <img   src="/images/potatobg.png" alt="lasagna.png">
             </div> 
 
             <div class="img-item" style="--i:0;">
-                <img src="/images/burger.png" alt="burger.png">
+                <img class="w-[500px]" src="/images/burger.png" alt="burger.png">
             </div>
             <div class="img-item" style="--i:1;">
-                <img src="/images/burger.png" alt="burger.png">
+                <img class="w-[500px]" src="/images/tomato2.png" alt="tomato2">
             </div>
             <div class="img-item" style="--i:2;">
-                <img src="/images/burger.png" alt="burger.png">
+                <img class="w-[500px]" src="/images/chickenwings.png" alt="chickenwings">
             </div>
             <div class="img-item" style="--i:3;">
-                <img src="/images/burger.png" alt="burger.png">
+                <img class="w-[500px]" src="/images/friedchicken.png" alt="burger.png">
             </div>
         </div>
         </div>
@@ -90,19 +90,19 @@
         <div class="info-slider">
             <div class="info-item">
                 <h2 class="text-[#C7253E]">burger</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores sed atque facere molestias modi voluptates nemo aliquid deleniti numquam quos.</p>
+                <p>"Experience bliss with our ultimate burger! Juicy beef patty, fresh veggies, melted cheese, in a sesame seed bun.</p>
             </div>
             <div class="info-item">
-                <h2 class="text-[#C7253E]">burger</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores sed atque facere molestias modi voluptates nemo aliquid deleniti numquam quos.</p>
+                <h2 class="text-[#C7253E]">pizza</h2>
+                <p>Enjoy our delicious pizza! Crispy crust, tangy sauce, gooey cheese, and your favorite toppings. Perfect for a pizza party</p>
             </div>
             <div class="info-item">
-                <h2 class="text-[#C7253E]">burger</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores sed atque facere molestias modi voluptates nemo aliquid deleniti numquam quos.</p>
+                <h2 class="text-[#C7253E]">chickenwings</h2>
+                <p>Get ready for a flavor explosion with our crispy, saucy chicken wings! Perfectly seasoned and cooked to perfection. Dive into wing heaven today</p>
             </div>
             <div class="info-item">
-                <h2 class="text-[#C7253E]">burger</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores sed atque facere molestias modi voluptates nemo aliquid deleniti numquam quos.</p>
+                <h2 class="text-[#C7253E]">friedchicken</h2>
+                <p>Crispy, golden perfection! Our fried chicken is packed with flavor and crunch. Indulge in the ultimate comfort food today!</p>
             </div>
         </div>
     </div>
@@ -131,7 +131,7 @@
                             <img class="w-full h-full object-contain" src="/images/burger.png" alt="burger">
                             <div class="description">  
                                 <h1 class="text-6xl text-[#C7253E]">burger</h1>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque maxime voluptate maiores eos alias et ipsum doloribus mollitia quam cum!</p>
+                                <p>Bite into bliss with our ultimate burger! Juicy beef patty, fresh veggies, and melted cheese, all embraced by a sesame seed bun. Order now for a taste of deliciousness!</p>
                                 <!-- button inside description -->
                                 <button class="mt-4 px-4 py-2 bg-[#C7253E] text-white rounded-lg hover:bg-[#A01C2D] transition duration-200">
                                     order now
@@ -152,7 +152,7 @@
                             <img class="w-full h-full object-contain" src="/images/tomato2.png" alt="pizza tomato">
                             <div class="description">  
                                 <h1 class="text-6xl text-[#C7253E]">Pizza</h1>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque maxime voluptate maiores eos alias et ipsum doloribus mollitia quam cum!</p>
+                                <p>Slice into happiness with our mouth-watering pizza! Crispy crust, tangy sauce, and a generous layer of gooey cheese topped with your favorite ingredients. Treat yourself to a pizza party today</p>
                                 <button class="mt-4 px-4 py-2 bg-[#C7253E] text-white rounded-lg hover:bg-[#A01C2D] transition duration-200">
                                     order now
                                 </button>
@@ -171,7 +171,7 @@
                             <img class="w-full h-full object-contain" src="/images/friedchicken.png" alt="friedchicken">
                             <div class="description">  
                                 <h1 class="text-6xl text-[#C7253E]">fried chicken</h1>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque maxime voluptate maiores eos alias et ipsum doloribus mollitia quam cum!</p>
+                                <p>Crispy, golden perfection! Our fried chicken is packed with flavor and crunch. Indulge in the ultimate comfort food today!</p>
                                 <button class="mt-4 px-4 py-2 bg-[#C7253E] text-white rounded-lg hover:bg-[#A01C2D] transition duration-200">
                                     order now
                                 </button>
@@ -190,7 +190,7 @@
                             <img class="w-full h-full object-contain" src="/images/lasagna.png" alt="lasagna">
                             <div class="description">  
                                 <h1 class="text-6xl text-[#C7253E]">lasagna</h1>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque maxime voluptate maiores eos alias et ipsum doloribus mollitia quam cum!</p>
+                                <p>Layers of love in every bite! Dive into our cheesy, saucy, and perfectly baked lasagna. It's comfort food at its finest</p>
                                 <button class="mt-4 px-4 py-2 bg-[#C7253E] text-white rounded-lg hover:bg-[#A01C2D] transition duration-200">
                                     order now
                                 </button>
@@ -209,7 +209,7 @@
                             <img class="w-full h-full object-contain" src="/images/chickenwings.png" alt="chickenwings">
                             <div class="description">  
                                 <h1 class="text-6xl text-[#C7253E]">chicken wings</h1>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque maxime voluptate maiores eos alias et ipsum doloribus mollitia quam cum!</p>
+                                <p>Get ready for a flavor explosion with our crispy, saucy chicken wings! Perfectly seasoned and cooked to perfection. Dive into wing heaven today</p>
                                 <button class="mt-4 px-4 py-2 bg-[#C7253E] text-white rounded-lg hover:bg-[#A01C2D] transition duration-200">
                                     order now
                                 </button>
@@ -228,7 +228,7 @@
                             <img class="w-full h-full object-contain" src="/images/spag.png" alt="spag">
                             <div class="description">  
                                 <h1 class="text-6xl text-[#C7253E]">Spaghetti</h1>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque maxime voluptate maiores eos alias et ipsum doloribus mollitia quam cum!</p>
+                                <p>Twirl into taste with our delicious spaghetti! Perfectly cooked pasta topped with rich, savory sauce and a sprinkle of parmesan. Dive into a plate of pure comfort</p>
                                 <button class="mt-4 px-4 py-2 bg-[#C7253E] text-white rounded-lg hover:bg-[#A01C2D] transition duration-200">
                                     order now
                                 </button>
@@ -247,7 +247,7 @@
                             <img class="w-full h-full object-contain" src="/images/halohalo.png" alt="halohalo">
                             <div class="description">  
                                 <h1 class="text-6xl text-[#C7253E]">halo-halo</h1>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque maxime voluptate maiores eos alias et ipsum doloribus mollitia quam cum!</p>
+                                <p>Cool down with our colorful and refreshing halo-halo! A delightful mix of sweetened fruits, jellies, beans, shaved ice, and creamy leche flan. It's a fiesta in every spoonful!</p>
                                 <button class="mt-4 px-4 py-2 bg-[#C7253E] text-white rounded-lg hover:bg-[#A01C2D] transition duration-200">
                                     order now
                                 </button>
@@ -266,7 +266,7 @@
                             <img class="w-full h-full object-contain" src="/images/pizza 2.png" alt="pizza">
                             <div class="description">  
                                 <h1 class="text-6xl text-[#C7253E]">pizza tomato</h1>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque maxime voluptate maiores eos alias et ipsum doloribus mollitia quam cum!</p>
+                                <p>Savor the simplicity of our tomato pizza! Fresh, juicy tomatoes, fragrant basil, and a crispy crust, all topped with melted mozzarella. Pure, delicious perfection</p>
                                 <button class="mt-4 px-4 py-2 bg-[#C7253E] text-white rounded-lg hover:bg-[#A01C2D] transition duration-200">
                                     order now
                                 </button>
@@ -293,7 +293,7 @@
             <span>50%</span> off!
         </h1>
         <p class="mb-6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto in nulla nostrum suscipit magnam illo expedita alias, totam optio inventore.
+        Enjoy a delicious burger at half the price! Get 50% off all burgers now. Don’t miss out on this tasty deal!
         </p>
         <a href="#" class="inline-flex items-center justify-center rounded-lg px-5 py-3 bg-red-700 text-white font-medium hover:bg-red-800 focus:ring-4 focus:ring-red-300">
             Pre-order now
@@ -312,8 +312,8 @@
             <!-- Text Section with Slide Left Animation for Large Screens -->
             <div class="font-light sm:text-lg lg:transform lg:-translate-x-full lg:opacity-0 lg:transition-transform lg:duration-500 lg:ease-in-out lg:group-hover:translate-x-0 lg:group-hover:opacity-100">
                 <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-[#C7253E]">10 Years of Experience</h2>
-                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus aliquam amet qui recusandae omnis ducimus? Quasi voluptatem deserunt maiores doloremque recusandae ratione perferendis ad voluptate commodi, voluptatibus possimus, fugit quod.</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit, recusandae.</p>
+                <p class="mb-4">Why choose us? With a decade of experience under our belt, we’ve perfected the art of delivering top-notch quality and service. Our expertise ensures that every customer receives the best, every time. Trust in our journey of excellence and dedication. Your satisfaction is our utmost priority.</p>
+                <p>Experience the best with us! Our 10 years in the industry have taught us how to meet and exceed customer expectations. From start to finish, our experienced team is here to provide unmatched service and quality. Join the countless satisfied customers who have made us their trusted choice for a decade.</p>
             </div>
             
             <!-- Image Section with Slide Right Animation for Large Screens -->
@@ -339,8 +339,8 @@
         <!-- Text Section with Slide Left Animation for Large Screens -->
         <div class="font-light sm:text-lg lg:transform lg:translate-x-full lg:opacity-0 lg:transition-transform lg:duration-500 lg:ease-in-out lg:group-hover:translate-x-0 lg:group-hover:opacity-100">
             <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-[#C7253E]">200+ Professional Chefs</h2>
-            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus aliquam amet qui recusandae omnis ducimus? Quasi voluptatem deserunt maiores doloremque recusandae ratione perferendis ad voluptate commodi, voluptatibus possimus, fugit quod.</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit, recusandae.</p>
+            <p class="mb-4">Why choose us? With over 200 professional chefs on our team, we bring a wealth of culinary expertise and passion to every dish. Our chefs' diverse skills and experiences ensure that each meal is crafted to perfection, delivering an exceptional dining experience every time. Trust in our culinary excellence</p>
+            <p>Experience the best with us! Our team of 200+ professional chefs is dedicated to creating unforgettable culinary delights. From innovative recipes to classic favorites, our chefs' dedication and skill are unmatched. Join the countless satisfied customers who have savored the creations of our talented chefs. Your satisfaction is our priority</p>
         </div>
         
     </div>
@@ -352,8 +352,8 @@
         <!-- Text Section with Slide Left Animation for Large Screens -->
         <div class="font-light sm:text-lg lg:transform lg:-translate-x-full lg:opacity-0 lg:transition-transform lg:duration-500 lg:ease-in-out lg:group-hover:translate-x-0 lg:group-hover:opacity-100">
             <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-[#C7253E]">5000+ Happy Customers</h2>
-            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus aliquam amet qui recusandae omnis ducimus? Quasi voluptatem deserunt maiores doloremque recusandae ratione perferendis ad voluptate commodi, voluptatibus possimus, fugit quod.</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit, recusandae.</p>
+            <p class="mb-4">Why choose us? Join our community of over 5000 happy customers who have experienced our commitment to quality and service. Each satisfied customer is a testament to our dedication and hard work. Trust in our proven track record of delivering excellence and making every customer a priority</p>
+            <p>Experience the best with us! With over 5000 happy customers, our reputation for exceptional service and satisfaction speaks for itself. Our team is dedicated to maintaining this high standard, ensuring you receive the best experience every time. Be part of our growing family of delighted customers.</p>
         </div>
         
         <!-- Image Section with Slide Right Animation for Large Screens -->
@@ -378,8 +378,8 @@
         <!-- Text Section with Slide Left Animation for Large Screens -->
         <div class="font-light sm:text-lg lg:transform lg:translate-x-full lg:opacity-0 lg:transition-transform lg:duration-500 lg:ease-in-out lg:group-hover:translate-x-0 lg:group-hover:opacity-100">
             <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-[#C7253E]">20+ Awards Won</h2>
-            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus aliquam amet qui recusandae omnis ducimus? Quasi voluptatem deserunt maiores doloremque recusandae ratione perferendis ad voluptate commodi, voluptatibus possimus, fugit quod.</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit, recusandae.</p>
+            <p class="mb-4">Why choose us? With over 20 prestigious awards, our dedication to excellence is recognized and celebrated. Each award reflects our commitment to providing outstanding quality and service. Trust in our award-winning team to deliver the best in every aspect, ensuring an exceptional experience every time.</p>
+            <p>Experience the best with us! Our 20+ awards are a testament to our relentless pursuit of perfection. From innovative solutions to customer satisfaction, our accolades highlight our achievements. Join the countless clients who have experienced our award-winning service and quality. Your satisfaction is our crowning achievement</p>
         </div>
         
     </div>
