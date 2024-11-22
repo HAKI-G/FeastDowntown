@@ -16,9 +16,6 @@
 </head>
 
 <body class="bg-[#FED801]  ">
-<header>
-    
-</header>
 
 <main class="h-screen overflow-y-scroll scroll-smooth snap-y snap-mandatory" >
 <!-- section 1 -->
