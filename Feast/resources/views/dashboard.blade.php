@@ -43,7 +43,6 @@
                 <!-- Dropdown Menu -->
                 <div id="dropdown-menu" class="dropdown hidden absolute right-0 mt-2 w-48 bg-white rounded-lg shadow-lg z-10">
                     <ul class="py-2 text-gray-700">
-                        <li><a href="#" class="block px-4 py-2 hover:bg-gray-200">HOME</a></li>
                         <div class="mt-3 space-y-1">
                 <x-responsive-nav-link :href="route('profile.edit')">
                     {{ __('Profile') }}
