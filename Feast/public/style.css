@@ -5,6 +5,10 @@
 
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 .img-box {
     position: absolute;
     bottom: -1100px;
