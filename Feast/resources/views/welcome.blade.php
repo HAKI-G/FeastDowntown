@@ -29,8 +29,19 @@
                 <svg class="w-10 hidden sm:block" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M8 0L0 6V8H1V15H4V10H7V15H15V8H16V6L14 4.5V1H11V2.25L8 0ZM9 10H12V13H9V10Z" fill="#000000"></path> </g></svg>
             </div>
             <div>
-                <svg class="w-10 hidden sm:block" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M2.08416 2.7512C2.22155 2.36044 2.6497 2.15503 3.04047 2.29242L3.34187 2.39838C3.95839 2.61511 4.48203 2.79919 4.89411 3.00139C5.33474 3.21759 5.71259 3.48393 5.99677 3.89979C6.27875 4.31243 6.39517 4.76515 6.4489 5.26153C6.47295 5.48373 6.48564 5.72967 6.49233 6H17.1305C18.8155 6 20.3323 6 20.7762 6.57708C21.2202 7.15417 21.0466 8.02369 20.6995 9.76275L20.1997 12.1875C19.8846 13.7164 19.727 14.4808 19.1753 14.9304C18.6236 15.38 17.8431 15.38 16.2821 15.38H10.9792C8.19028 15.38 6.79583 15.38 5.92943 14.4662C5.06302 13.5523 4.99979 12.5816 4.99979 9.64L4.99979 7.03832C4.99979 6.29837 4.99877 5.80316 4.95761 5.42295C4.91828 5.0596 4.84858 4.87818 4.75832 4.74609C4.67026 4.61723 4.53659 4.4968 4.23336 4.34802C3.91052 4.18961 3.47177 4.03406 2.80416 3.79934L2.54295 3.7075C2.15218 3.57012 1.94678 3.14197 2.08416 2.7512Z" fill="#000"></path> <path d="M7.5 18C8.32843 18 9 18.6716 9 19.5C9 20.3284 8.32843 21 7.5 21C6.67157 21 6 20.3284 6 19.5C6 18.6716 6.67157 18 7.5 18Z" fill="#000"></path> <path d="M16.5 18.0001C17.3284 18.0001 18 18.6716 18 19.5001C18 20.3285 17.3284 21.0001 16.5 21.0001C15.6716 21.0001 15 20.3285 15 19.5001C15 18.6716 15.6716 18.0001 16.5 18.0001Z" fill="#000"></path> </g></svg>
-            </div>
+    <a href="{{ route('cart') }}">
+        <svg class="w-10 hidden sm:block" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+            <g id="SVGRepo_iconCarrier">
+                <path d="M2.08416 2.7512C2.22155 2.36044 2.6497 2.15503 3.04047 2.29242L3.34187 2.39838C3.95839 2.61511 4.48203 2.79919 4.89411 3.00139C5.33474 3.21759 5.71259 3.48393 5.99677 3.89979C6.27875 4.31243 6.39517 4.76515 6.4489 5.26153C6.47295 5.48373 6.48564 5.72967 6.49233 6H17.1305C18.8155 6 20.3323 6 20.7762 6.57708C21.2202 7.15417 21.0466 8.02369 20.6995 9.76275L20.1997 12.1875C19.8846 13.7164 19.727 14.4808 19.1753 14.9304C18.6236 15.38 17.8431 15.38 16.2821 15.38H10.9792C8.19028 15.38 6.79583 15.38 5.92943 14.4662C5.06302 13.5523 4.99979 12.5816 4.99979 9.64L4.99979 7.03832C4.99979 6.29837 4.99877 5.80316 4.95761 5.42295C4.91828 5.0596 4.84858 4.87818 4.75832 4.74609C4.67026 4.61723 4.53659 4.4968 4.23336 4.34802C3.91052 4.18961 3.47177 4.03406 2.80416 3.79934L2.54295 3.7075C2.15218 3.57012 1.94678 3.14197 2.08416 2.7512Z" fill="#000"></path>
+                <path d="M7.5 18C8.32843 18 9 18.6716 9 19.5C9 20.3284 8.32843 21 7.5 21C6.67157 21 6 20.3284 6 19.5C6 18.6716 6.67157 18 7.5 18Z" fill="#000"></path>
+                <path d="M16.5 18.0001C17.3284 18.0001 18 18.6716 18 19.5001C18 20.3285 17.3284 21.0001 16.5 21.0001C15.6716 21.0001 15 20.3285 15 19.5001C15 18.6716 15.6716 18.0001 16.5 18.0001Z" fill="#000"></path>
+            </g>
+        </svg>
+    </a>
+</div>
+
             <div class="relative">
                 <div class="hamburger-menu" onclick="toggleDropdown()">
                     <svg class="w-10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -117,7 +128,7 @@
         <div class="disply-list">
             <div class="show-food lg:mx-40 ">
                 <div class="product-list grid grid-cols-2 sm:grid sm:grid-cols-3 lg:grid lg:grid-cols-4 grid-flow-row ">
-                    <div class="bg-[#FFC82A] flex items-center justify-center m-2 cursor-pointer" onclick="openPopup()">
+                    <div class="bg-[#F09319]  flex items-center justify-center m-2 cursor-pointer" onclick="openPopup()">
                     <img class="w-full h-full object-contain" src="/images/burger.png" alt="burger">
             </div> 
 
@@ -138,13 +149,13 @@
                     </div>
 
 
-                    <div class="bg-[#FFC82A] flex items-center justify-center m-2 cursor-pointer" onclick="openTomatoPopup()">
+                    <div class="bg-[#F09319] flex items-center justify-center m-2 cursor-pointer" onclick="openTomatoPopup()">
                         <img class="w-full h-full object-contain" src="/images/tomato2.png" alt="pizza tomato">
                     </div>
 
 <!-- Tomato pop-up overlay -->
                     <div id="tomatoPopupOverlay" class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center opacity-0 pointer-events-none transition-opacity duration-300">
-                        <div class="bg-[#FED801] w-[70%] h-[70%] p-4 rounded-lg flex items-center justify-center relative">
+                        <div class="bg-[#F09319] w-[70%] h-[70%] p-4 rounded-lg flex items-center justify-center relative">
                             <img class="w-full h-full object-contain" src="/images/tomato2.png" alt="pizza tomato">
                             <div class="description">  
                                 <h1 class="text-6xl text-[#C7253E]">Pizza</h1>
@@ -157,7 +168,7 @@
                         </div>
                     </div>
 
-                    <div class="bg-[#FFC82A] flex items-center justify-center m-2 cursor-pointer" onclick="openFriedChickenPopup()">
+                    <div class="bg-[#F09319] flex items-center justify-center m-2 cursor-pointer" onclick="openFriedChickenPopup()">
                         <img class="w-full h-full object-contain" src="/images/friedchicken.png" alt="friedchicken">
                     </div>
 
@@ -176,7 +187,7 @@
                         </div>
                     </div>
 
-                    <div class="bg-[#FFC82A] flex items-center justify-center m-2 cursor-pointer" onclick="openLasagnaPopup()">
+                    <div class="bg-[#F09319] flex items-center justify-center m-2 cursor-pointer" onclick="openLasagnaPopup()">
                         <img class="w-full h-full object-contain" src="/images/lasagna.png" alt="lasagna">
                     </div>
 
@@ -195,7 +206,7 @@
                         </div>
                     </div>
 
-                    <div class="bg-[#FFC82A] flex items-center justify-center m-2 cursor-pointer" onclick="openChickenWingsPopup()">
+                    <div class="bg-[#F09319] flex items-center justify-center m-2 cursor-pointer" onclick="openChickenWingsPopup()">
                         <img class="w-full h-full object-contain" src="/images/chickenwings.png" alt="chickenwings">
                     </div>
 
@@ -214,13 +225,13 @@
                         </div>
                     </div>
 
-                    <div class="bg-[#FFC82A] flex items-center justify-center m-2 cursor-pointer" onclick="openSpagPopup()">
+                    <div class="bg-[#F09319] flex items-center justify-center m-2 cursor-pointer" onclick="openSpagPopup()">
                         <img class="w-full h-full object-contain" src="/images/spag.png" alt="spag">
                     </div>
 
 <!-- Spaghetti pop-up overlay -->
                     <div id="spagPopupOverlay" class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center opacity-0 pointer-events-none transition-opacity duration-300">
-                        <div class="bg-[#FED801] w-[70%] h-[70%] p-4 rounded-lg flex items-center justify-center relative">
+                        <div class="bg-[#FED801]  w-[70%] h-[70%] p-4 rounded-lg flex items-center justify-center relative">
                             <img class="w-full h-full object-contain" src="/images/spag.png" alt="spag">
                             <div class="description">  
                                 <h1 class="text-6xl text-[#C7253E]">Spaghetti</h1>
@@ -233,7 +244,7 @@
                         </div>
                     </div>
 
-                    <div class="bg-[#FFC82A] flex items-center justify-center m-2 cursor-pointer" onclick="openHaloHaloPopup()">
+                    <div class="bg-[#F09319] flex items-center justify-center m-2 cursor-pointer" onclick="openHaloHaloPopup()">
                         <img class="w-full h-full object-contain" src="/images/halohalo.png" alt="halohalo">
                     </div>
 
@@ -252,11 +263,11 @@
                         </div>
                     </div>
 
-                    <div class="bg-[#FFC82A] flex items-center justify-center m-2 cursor-pointer" onclick="openPizzaPopup()">
+                    <div class="bg-[#F09319] flex items-center justify-center m-2 cursor-pointer" onclick="openPizzaPopup()">
                         <img class="w-full h-full object-contain" src="/images/pizza 2.png" alt="pizza">
                     </div>
 
-                    <!-- Pizza pop-up overlay -->
+ <!-- Pizza pop-up overlay -->
                     <div id="pizzaPopupOverlay" class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center opacity-0 pointer-events-none transition-opacity duration-300">
                         <div class="bg-[#FED801] w-[70%] h-[70%] p-4 rounded-lg flex items-center justify-center relative">
                             <img class="w-full h-full object-contain" src="/images/pizza 2.png" alt="pizza">

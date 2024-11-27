@@ -13,4 +13,5 @@ class HomeController extends Controller
     {
         return view('admin.dashboard'); // Ensure this view file exists
     }
+
 }
