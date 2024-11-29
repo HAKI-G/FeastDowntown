@@ -128,7 +128,7 @@
         <div class="disply-list">
             <div class="show-food lg:mx-40 ">
                 <div class="product-list grid grid-cols-2 sm:grid sm:grid-cols-3 lg:grid lg:grid-cols-4 grid-flow-row ">
-                    <div class="bg-[#F09319]  flex items-center justify-center m-2 cursor-pointer" onclick="openPopup()">
+                    <div class="bg-white  flex items-center justify-center m-2 cursor-pointer" onclick="openPopup()">
                     <img class="w-full h-full object-contain" src="/images/burger.png" alt="burger">
             </div> 
 
@@ -149,13 +149,13 @@
                     </div>
 
 
-                    <div class="bg-[#F09319] flex items-center justify-center m-2 cursor-pointer" onclick="openTomatoPopup()">
+                    <div class="bg-white flex items-center justify-center m-2 cursor-pointer" onclick="openTomatoPopup()">
                         <img class="w-full h-full object-contain" src="/images/tomato2.png" alt="pizza tomato">
                     </div>
 
 <!-- Tomato pop-up overlay -->
                     <div id="tomatoPopupOverlay" class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center opacity-0 pointer-events-none transition-opacity duration-300">
-                        <div class="bg-[#F09319] w-[70%] h-[70%] p-4 rounded-lg flex items-center justify-center relative">
+                        <div class="bg-[#FED801] w-[70%] h-[70%] p-4 rounded-lg flex items-center justify-center relative">
                             <img class="w-full h-full object-contain" src="/images/tomato2.png" alt="pizza tomato">
                             <div class="description">  
                                 <h1 class="text-6xl text-[#C7253E]">Pizza</h1>
@@ -168,7 +168,7 @@
                         </div>
                     </div>
 
-                    <div class="bg-[#F09319] flex items-center justify-center m-2 cursor-pointer" onclick="openFriedChickenPopup()">
+                    <div class="bg-white flex items-center justify-center m-2 cursor-pointer" onclick="openFriedChickenPopup()">
                         <img class="w-full h-full object-contain" src="/images/friedchicken.png" alt="friedchicken">
                     </div>
 
@@ -187,7 +187,7 @@
                         </div>
                     </div>
 
-                    <div class="bg-[#F09319] flex items-center justify-center m-2 cursor-pointer" onclick="openLasagnaPopup()">
+                    <div class="bg-white flex items-center justify-center m-2 cursor-pointer" onclick="openLasagnaPopup()">
                         <img class="w-full h-full object-contain" src="/images/lasagna.png" alt="lasagna">
                     </div>
 
@@ -206,7 +206,7 @@
                         </div>
                     </div>
 
-                    <div class="bg-[#F09319] flex items-center justify-center m-2 cursor-pointer" onclick="openChickenWingsPopup()">
+                    <div class="bg-white flex items-center justify-center m-2 cursor-pointer" onclick="openChickenWingsPopup()">
                         <img class="w-full h-full object-contain" src="/images/chickenwings.png" alt="chickenwings">
                     </div>
 
@@ -225,7 +225,7 @@
                         </div>
                     </div>
 
-                    <div class="bg-[#F09319] flex items-center justify-center m-2 cursor-pointer" onclick="openSpagPopup()">
+                    <div class="bg-white flex items-center justify-center m-2 cursor-pointer" onclick="openSpagPopup()">
                         <img class="w-full h-full object-contain" src="/images/spag.png" alt="spag">
                     </div>
 
@@ -244,7 +244,7 @@
                         </div>
                     </div>
 
-                    <div class="bg-[#F09319] flex items-center justify-center m-2 cursor-pointer" onclick="openHaloHaloPopup()">
+                    <div class="bg-white flex items-center justify-center m-2 cursor-pointer" onclick="openHaloHaloPopup()">
                         <img class="w-full h-full object-contain" src="/images/halohalo.png" alt="halohalo">
                     </div>
 
@@ -263,7 +263,7 @@
                         </div>
                     </div>
 
-                    <div class="bg-[#F09319] flex items-center justify-center m-2 cursor-pointer" onclick="openPizzaPopup()">
+                    <div class="bg-white flex items-center justify-center m-2 cursor-pointer" onclick="openPizzaPopup()">
                         <img class="w-full h-full object-contain" src="/images/pizza 2.png" alt="pizza">
                     </div>
 
@@ -309,9 +309,7 @@
 </section>
 
 
-
-
-<section class="bg-[#FED801] snap-start overflow-hidden h-screen flex items-center justify-center">
+<section class="bg-[#FED801] snap-start overflow-hidden h-screen flex items-start justify-center">
     <div class="first-show-why-us w-full px-4 py-8 mx-auto max-w-screen-xl">
         <h2 class="text-center text-6xl">Why Us?</h2>
         <div class="gap-16 items-center mt-8 lg:mt-16 lg:grid lg:grid-cols-2 group">
@@ -325,13 +323,14 @@
             
             <!-- Image Section with Slide Right Animation for Large Screens -->
             <div class="grid grid-cols-2 gap-4 mt-8 lg:transform lg:translate-x-full lg:opacity-0 lg:transition-transform lg:duration-500 lg:ease-in-out lg:group-hover:translate-x-0 lg:group-hover:opacity-100">
-                <img class="w-full rounded-lg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTmkGcDBMWYGhb-lDa1VOxI2bmoo8q98X3vQ&s" alt="office content 1">
-                <img class="mt-4 w-full lg:mt-10 rounded-lg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTmkGcDBMWYGhb-lDa1VOxI2bmoo8q98X3vQ&s" alt="office content 2">
+                <img class="w-full rounded-lg" src="/images/10 years exp.jpg" alt="office content 1">
+                <img class="mt-4 w-full lg:mt-10 rounded-lg" src="/images/10 years of exp 2.png" alt="office content 2">
             </div>
-            
+                
         </div>
     </div>
 </section>
+
 
 
 <section class="bg-[#FED801] snap-start overflow-hidden h-screen flex">
@@ -339,8 +338,8 @@
         
         <!-- Image Section with Slide Right Animation for Large Screens -->
         <div class="grid grid-cols-2 gap-4 mt-8 lg:transform lg:-translate-x-full lg:opacity-0 lg:transition-transform lg:duration-500 lg:ease-in-out lg:group-hover:translate-x-0 lg:group-hover:opacity-100">
-            <img class="w-full rounded-lg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTmkGcDBMWYGhb-lDa1VOxI2bmoo8q98X3vQ&s" alt="office content 1">
-            <img class="mt-4 w-full lg:mt-10 rounded-lg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTmkGcDBMWYGhb-lDa1VOxI2bmoo8q98X3vQ&s" alt="office content 2">
+            <img class="w-full rounded-lg" src="/images/chefs1.jpg" alt="office content 1">
+            <img class="mt-4 w-full lg:mt-10 rounded-lg" src="/images/chefs2.jpg" alt="office content 2">
         </div>
 
         <!-- Text Section with Slide Left Animation for Large Screens -->
@@ -365,8 +364,8 @@
         
         <!-- Image Section with Slide Right Animation for Large Screens -->
         <div class="grid grid-cols-2 gap-4 mt-8 lg:transform lg:translate-x-full lg:opacity-0 lg:transition-transform lg:duration-500 lg:ease-in-out lg:group-hover:translate-x-0 lg:group-hover:opacity-100">
-            <img class="w-full rounded-lg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTmkGcDBMWYGhb-lDa1VOxI2bmoo8q98X3vQ&s" alt="office content 1">
-            <img class="mt-4 w-full lg:mt-10 rounded-lg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTmkGcDBMWYGhb-lDa1VOxI2bmoo8q98X3vQ&s" alt="office content 2">
+            <img class="w-full rounded-lg" src="/images/50001.jpg" alt="office content 1">
+            <img class="mt-4 w-full lg:mt-10 rounded-lg" src="/images/50002.jpg" alt="office content 2">
         </div>
         
     </div>
@@ -378,8 +377,8 @@
         
         <!-- Image Section with Slide Right Animation for Large Screens -->
         <div class="grid grid-cols-2 gap-4 mt-8 lg:transform lg:-translate-x-full lg:opacity-0 lg:transition-transform lg:duration-500 lg:ease-in-out lg:group-hover:translate-x-0 lg:group-hover:opacity-100">
-            <img class="w-full rounded-lg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTmkGcDBMWYGhb-lDa1VOxI2bmoo8q98X3vQ&s" alt="office content 1">
-            <img class="mt-4 w-full lg:mt-10 rounded-lg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTmkGcDBMWYGhb-lDa1VOxI2bmoo8q98X3vQ&s" alt="office content 2">
+            <img class="w-full rounded-lg" src="/images/tropy1.png" alt="office content 1">
+            <img class="mt-4 w-full lg:mt-10 rounded-lg" src="/images/tropy3.jpg" alt="office content 2">
         </div>
 
         <!-- Text Section with Slide Left Animation for Large Screens -->
