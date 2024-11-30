@@ -122,13 +122,14 @@
     </div>
 </section>
 
+
 <!-- section 3 -->
 <section class="h-screen  snap-start flex ">
     <div class="show-products-list m-auto">
         <div class="disply-list">
             <div class="show-food lg:mx-40 ">
                 <div class="product-list grid grid-cols-2 sm:grid sm:grid-cols-3 lg:grid lg:grid-cols-4 grid-flow-row ">
-                    <div class="bg-white  flex items-center justify-center m-2 cursor-pointer" onclick="openPopup()">
+                    <div class="bg-[#F09319]  flex items-center justify-center m-2 cursor-pointer border-2 border-black rounded-lg hover:scale-105 hover:border-[#FFD700] transition-transform duration-300" onclick="openPopup()">
                     <img class="w-full h-full object-contain" src="/images/burger.png" alt="burger">
             </div> 
 
@@ -149,13 +150,13 @@
                     </div>
 
 
-                    <div class="bg-white flex items-center justify-center m-2 cursor-pointer" onclick="openTomatoPopup()">
+                    <div class="bg-[#F09319] flex items-center justify-center m-2 cursor-pointer border-2 border-black rounded-lg hover:scale-105 hover:border-[#FFD700] transition-transform duration-300" onclick="openTomatoPopup()">
                         <img class="w-full h-full object-contain" src="/images/tomato2.png" alt="pizza tomato">
                     </div>
 
 <!-- Tomato pop-up overlay -->
                     <div id="tomatoPopupOverlay" class="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center opacity-0 pointer-events-none transition-opacity duration-300">
-                        <div class="bg-[#FED801] w-[70%] h-[70%] p-4 rounded-lg flex items-center justify-center relative">
+                        <div class="bg-[#FED801] w-[70%] h-[70%] p-4 rounded-lg flex items-center justify-center relative ">
                             <img class="w-full h-full object-contain" src="/images/tomato2.png" alt="pizza tomato">
                             <div class="description">  
                                 <h1 class="text-6xl text-[#C7253E]">Pizza</h1>
@@ -168,7 +169,7 @@
                         </div>
                     </div>
 
-                    <div class="bg-white flex items-center justify-center m-2 cursor-pointer" onclick="openFriedChickenPopup()">
+                    <div class="bg-[#F09319] flex items-center justify-center m-2 cursor-pointer border-2 border-black rounded-lg hover:scale-105 hover:border-[#FFD700] transition-transform duration-300" onclick="openFriedChickenPopup()">
                         <img class="w-full h-full object-contain" src="/images/friedchicken.png" alt="friedchicken">
                     </div>
 
@@ -187,7 +188,7 @@
                         </div>
                     </div>
 
-                    <div class="bg-white flex items-center justify-center m-2 cursor-pointer" onclick="openLasagnaPopup()">
+                    <div class="bg-[#F09319] flex items-center justify-center m-2 cursor-pointer border-2 border-black rounded-lg hover:scale-105 hover:border-[#FFD700] transition-transform duration-300" onclick="openLasagnaPopup()">
                         <img class="w-full h-full object-contain" src="/images/lasagna.png" alt="lasagna">
                     </div>
 
@@ -206,7 +207,7 @@
                         </div>
                     </div>
 
-                    <div class="bg-white flex items-center justify-center m-2 cursor-pointer" onclick="openChickenWingsPopup()">
+                    <div class="bg-[#F09319] flex items-center justify-center m-2 cursor-pointer border-2 border-black rounded-lg hover:scale-105 hover:border-[#FFD700] transition-transform duration-300" onclick="openChickenWingsPopup()">
                         <img class="w-full h-full object-contain" src="/images/chickenwings.png" alt="chickenwings">
                     </div>
 
@@ -225,7 +226,7 @@
                         </div>
                     </div>
 
-                    <div class="bg-white flex items-center justify-center m-2 cursor-pointer" onclick="openSpagPopup()">
+                    <div class="bg-[#F09319] flex items-center justify-center m-2 cursor-pointer border-2 border-black rounded-lg hover:scale-105 hover:border-[#FFD700] transition-transform duration-300" onclick="openSpagPopup()">
                         <img class="w-full h-full object-contain" src="/images/spag.png" alt="spag">
                     </div>
 
@@ -244,7 +245,7 @@
                         </div>
                     </div>
 
-                    <div class="bg-white flex items-center justify-center m-2 cursor-pointer" onclick="openHaloHaloPopup()">
+                    <div class="bg-[#F09319] flex items-center justify-center m-2 cursor-pointer border-2 border-black rounded-lg hover:scale-105 hover:border-[#FFD700] transition-transform duration-300" onclick="openHaloHaloPopup()">
                         <img class="w-full h-full object-contain" src="/images/halohalo.png" alt="halohalo">
                     </div>
 
@@ -263,7 +264,7 @@
                         </div>
                     </div>
 
-                    <div class="bg-white flex items-center justify-center m-2 cursor-pointer" onclick="openPizzaPopup()">
+                    <div class="bg-[#F09319] flex items-center justify-center m-2 cursor-pointer border-2 border-black rounded-lg hover:scale-105 hover:border-[#FFD700] transition-transform duration-300" onclick="openPizzaPopup()">
                         <img class="w-full h-full object-contain" src="/images/pizza 2.png" alt="pizza">
                     </div>
 
